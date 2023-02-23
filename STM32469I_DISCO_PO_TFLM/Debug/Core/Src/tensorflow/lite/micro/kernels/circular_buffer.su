@@ -1,0 +1,80 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+util.h:41:13:bool flatbuffers::check_ascii_range(char, char, char)	16	static
+util.h:49:13:bool flatbuffers::is_alpha(char)	16	static
+util.h:55:13:bool flatbuffers::is_alpha_char(char, char)	16	static
+util.h:66:13:bool flatbuffers::is_digit(char)	16	static
+util.h:253:13:void flatbuffers::strtoval_impl(int64_t*, const char*, char**, int)	24	static
+util.h:392:16:int64_t flatbuffers::StringToInt(const char*, int)	24	static
+flexbuffers.h:146:16:int64_t flexbuffers::ReadInt64(const uint8_t*, uint8_t)	16	static
+flexbuffers.h:151:17:uint64_t flexbuffers::ReadUInt64(const uint8_t*, uint8_t)	16	static
+flexbuffers.h:170:15:double flexbuffers::ReadDouble(const uint8_t*, uint8_t)	16	static
+flexbuffers.h:175:23:const uint8_t* flexbuffers::Indirect(const uint8_t*, uint8_t)	16	static
+flexbuffers.h:209:3:flexbuffers::Object::Object(const uint8_t*, uint8_t)	24	static
+flexbuffers.h:221:3:flexbuffers::Sized::Sized(const uint8_t*, uint8_t)	24	static
+flexbuffers.h:224:3:flexbuffers::Sized::Sized(const uint8_t*, uint8_t, size_t)	24	static
+flexbuffers.h:226:10:size_t flexbuffers::Sized::size() const	16	static
+flexbuffers.h:228:10:size_t flexbuffers::Sized::read_size() const	16	static
+flexbuffers.h:239:3:flexbuffers::String::String(const uint8_t*, uint8_t)	24	static
+flexbuffers.h:241:3:flexbuffers::String::String(const uint8_t*, uint8_t, size_t)	24	static
+flexbuffers.h:245:15:const char* flexbuffers::String::c_str() const	16	static
+flexbuffers.h:248:17:static flexbuffers::String flexbuffers::String::EmptyString()	16	static
+flexbuffers.h:270:3:flexbuffers::Vector::Vector(const uint8_t*, uint8_t)	24	static
+flexbuffers.h:274:17:static flexbuffers::Vector flexbuffers::Vector::EmptyVector()	16	static
+flexbuffers.h:283:3:flexbuffers::TypedVector::TypedVector(const uint8_t*, uint8_t, flexbuffers::Type)	24	static
+flexbuffers.h:332:3:flexbuffers::Map::Map(const uint8_t*, uint8_t)	24	static
+flexbuffers.h:339:15:flexbuffers::TypedVector flexbuffers::Map::Keys() const	32	static
+flexbuffers.h:348:14:static flexbuffers::Map flexbuffers::Map::EmptyMap()	16	static
+flexbuffers.h:383:3:flexbuffers::Reference::Reference(const uint8_t*, uint8_t, uint8_t)	24	static
+flexbuffers.h:423:11:int64_t flexbuffers::Reference::AsInt64() const	40	static
+flexbuffers.h:448:11:int32_t flexbuffers::Reference::AsInt32() const	16	static
+flexbuffers.h:531:10:flexbuffers::String flexbuffers::Reference::AsString() const	32	static
+flexbuffers.h:618:10:flexbuffers::Vector flexbuffers::Reference::AsVector() const	16	static
+flexbuffers.h:655:7:flexbuffers::Map flexbuffers::Reference::AsMap() const	16	static
+flexbuffers.h:742:18:const uint8_t* flexbuffers::Reference::Indirect() const	16	static
+flexbuffers.h:812:16:uint8_t flexbuffers::PackedType(flexbuffers::BitWidth, flexbuffers::Type)	16	static
+flexbuffers.h:816:16:uint8_t flexbuffers::NullPackedType()	8	static
+flexbuffers.h:825:18:flexbuffers::Reference flexbuffers::Vector::operator[](size_t) const	40	static
+flexbuffers.h:853:18:flexbuffers::Reference flexbuffers::Map::operator[](const char*) const	72	static
+flexbuffers.h:874:18:flexbuffers::Reference flexbuffers::GetRoot(const uint8_t*, size_t)	32	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+circular_buffer.cc:72:7:void* tflite::ops::micro::circular_buffer::Init(TfLiteContext*, const char*, size_t)	64	static
+circular_buffer.cc:88:14:TfLiteStatus tflite::ops::micro::circular_buffer::Prepare(TfLiteContext*, TfLiteNode*)	56	static
+circular_buffer.cc:138:6:void tflite::ops::micro::circular_buffer::EvalInt8(const int8_t*, int, int, int8_t*)	24	static
+circular_buffer.cc:143:14:TfLiteStatus tflite::ops::micro::circular_buffer::Eval(TfLiteContext*, TfLiteNode*)	48	static
+circular_buffer.cc:178:21:TfLiteRegistration* tflite::ops::micro::Register_CIRCULAR_BUFFER()	4	static
+util.h:291:13:bool flatbuffers::StringToIntegerImpl(T*, const char*, int, bool) [with T = long long int]	32	static
+flexbuffers.h:136:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = long long int; T1 = signed char; T2 = short int; T4 = long int; T8 = long long int]	16	static
+flexbuffers.h:136:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = long long unsigned int; T1 = unsigned char; T2 = short unsigned int; T4 = long unsigned int; T8 = long long unsigned int]	16	static
+flexbuffers.h:136:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = double; T1 = signed char; T2 = short int; T4 = float; T8 = double]	16	static
+flexbuffers.h:846:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = unsigned char]	24	static
+flexbuffers.h:846:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = short unsigned int]	24	static
+flexbuffers.h:846:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long unsigned int]	24	static
+flexbuffers.h:846:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long long unsigned int]	24	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = signed char]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = short int]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = long long int]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = unsigned char]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = long long unsigned int]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = float]	16	static
+base.h:391:3:T flatbuffers::ReadScalar(const void*) [with T = double]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = long long int]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = long long unsigned int]	16	static
+flexbuffers.h:179:37:const uint8_t* flexbuffers::Indirect(const uint8_t*) [with T = unsigned char]	16	static
+flexbuffers.h:179:37:const uint8_t* flexbuffers::Indirect(const uint8_t*) [with T = short unsigned int]	16	static
+flexbuffers.h:179:37:const uint8_t* flexbuffers::Indirect(const uint8_t*) [with T = long unsigned int]	16	static
+flexbuffers.h:179:37:const uint8_t* flexbuffers::Indirect(const uint8_t*) [with T = long long unsigned int]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = unsigned char]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = double]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = float]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = signed char]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = short int]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = long int]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	16	static
+base.h:380:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	16	static

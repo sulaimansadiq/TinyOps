@@ -1,0 +1,17 @@
+common.c:24:5:TfLiteIntArrayGetSizeInBytes	16	static
+common.c:29:5:TfLiteIntArrayEqual	16	static
+common.c:35:5:TfLiteIntArrayEqualsArray	32	static
+common.c:47:17:TfLiteIntArrayCreate	24	static
+common.c:54:17:TfLiteIntArrayCopy	24	static
+common.c:63:6:TfLiteIntArrayFree	16	static
+common.c:67:5:TfLiteFloatArrayGetSizeInBytes	16	static
+common.c:74:19:TfLiteFloatArrayCreate	24	static
+common.c:81:6:TfLiteFloatArrayFree	16	static
+common.c:83:6:TfLiteTensorDataFree	16	static
+common.c:91:6:TfLiteQuantizationFree	24	static
+common.c:109:6:TfLiteSparsityFree	48	static
+common.c:142:6:TfLiteTensorFree	16	static
+common.c:157:6:TfLiteTensorReset	24	static
+common.c:177:6:TfLiteTensorRealloc	16	static
+common.c:192:13:TfLiteTypeGetName	16	static
+common.c:232:16:TfLiteDelegateCreate	56	static

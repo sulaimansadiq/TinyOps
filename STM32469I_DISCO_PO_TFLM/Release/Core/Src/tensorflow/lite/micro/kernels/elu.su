@@ -1,0 +1,4 @@
+elu.cc:100:7:void* tflite::{anonymous}::EluInit(TfLiteContext*, const char*, size_t)	8	static
+elu.cc:108:14:TfLiteStatus tflite::{anonymous}::EluPrepare(TfLiteContext*, TfLiteNode*)	48	static
+elu.cc:112:14:TfLiteStatus tflite::{anonymous}::EluEval(TfLiteContext*, TfLiteNode*)	128	static
+elu.cc:140:20:TfLiteRegistration tflite::Register_ELU()	12	static

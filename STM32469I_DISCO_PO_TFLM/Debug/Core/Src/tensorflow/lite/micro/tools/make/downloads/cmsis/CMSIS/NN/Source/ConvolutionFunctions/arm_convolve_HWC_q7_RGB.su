@@ -1,0 +1,1 @@
+arm_convolve_HWC_q7_RGB.c:80:12:arm_convolve_HWC_q7_RGB	304	static,ignoring_inline_asm

@@ -1,0 +1,9 @@
+stm32f4xx_hal_msp.c:64:6:HAL_MspInit	16	static
+stm32f4xx_hal_msp.c:98:6:HAL_TIM_Base_MspInit	16	static
+stm32f4xx_hal_msp.c:123:6:HAL_TIM_Base_MspDeInit	0	static
+stm32f4xx_hal_msp.c:148:6:HAL_UART_MspInit	48	static
+stm32f4xx_hal_msp.c:184:6:HAL_UART_MspDeInit	0	static
+stm32f4xx_hal_msp.c:218:6:HAL_QSPI_MspInit	88	static
+stm32f4xx_hal_msp.c:311:6:HAL_QSPI_MspDeInit	8	static
+stm32f4xx_hal_msp.c:348:6:HAL_SDRAM_MspInit	72	static
+stm32f4xx_hal_msp.c:420:6:HAL_SDRAM_MspDeInit	8	static

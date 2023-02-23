@@ -1,0 +1,3 @@
+arm_avgpool_s8.c:36:13:scale_q31_to_q7_and_clamp	40	static
+arm_avgpool_s8.c:237:12:arm_avgpool_s8	160	static,ignoring_inline_asm
+arm_avgpool_s8.c:349:9:arm_avgpool_s8_get_buffer_size	16	static

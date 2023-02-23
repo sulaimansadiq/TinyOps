@@ -1,0 +1,3 @@
+svdf_common.cc:51:6:void tflite::EvalIntegerSvdfReference(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, TfLiteEvalTensor*, TfLiteEvalTensor*, const tflite::OpData&)	120	static
+svdf_common.cc:257:6:void tflite::EvalFloatSvdfReference(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, int, TfLiteEvalTensor*, TfLiteEvalTensor*)	88	static
+svdf_common.cc:330:14:TfLiteStatus tflite::PrepareSvdf(TfLiteContext*, TfLiteNode*)	80	static

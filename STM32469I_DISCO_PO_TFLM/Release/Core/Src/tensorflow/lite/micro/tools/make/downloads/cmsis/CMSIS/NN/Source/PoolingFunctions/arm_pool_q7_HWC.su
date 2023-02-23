@@ -1,0 +1,3 @@
+arm_pool_q7_HWC.c:52:13:compare_and_replace_if_larger_q7	48	static
+arm_pool_q7_HWC.c:170:6:arm_maxpool_q7_HWC	72	static
+arm_pool_q7_HWC.c:326:6:arm_avepool_q7_HWC	112	static,ignoring_inline_asm

@@ -1,0 +1,1 @@
+arm_nn_mat_mult_kernel_q7_q15_reordered.c:40:7:arm_nn_mat_mult_kernel_q7_q15_reordered	384	static,ignoring_inline_asm

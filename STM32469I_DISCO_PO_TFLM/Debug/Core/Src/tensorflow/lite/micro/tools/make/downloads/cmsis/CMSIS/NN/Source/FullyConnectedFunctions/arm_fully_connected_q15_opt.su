@@ -1,0 +1,1 @@
+arm_fully_connected_q15_opt.c:96:12:arm_fully_connected_q15_opt	336	static,ignoring_inline_asm

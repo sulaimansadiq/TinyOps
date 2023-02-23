@@ -1,0 +1,12 @@
+new:173:33:void* operator new(std::size_t, void*)	16	static
+recording_simple_memory_allocator.cc:24:1:tflite::RecordingSimpleMemoryAllocator::RecordingSimpleMemoryAllocator(tflite::ErrorReporter*, uint8_t*, size_t)	24	static
+recording_simple_memory_allocator.cc:32:1:tflite::RecordingSimpleMemoryAllocator::~RecordingSimpleMemoryAllocator()	16	static
+recording_simple_memory_allocator.cc:32:1:virtual tflite::RecordingSimpleMemoryAllocator::~RecordingSimpleMemoryAllocator()	16	static
+simple_memory_allocator.h:31:7:constexpr tflite::SimpleMemoryAllocator::SimpleMemoryAllocator(const tflite::SimpleMemoryAllocator&)	16	static
+recording_simple_memory_allocator.h:27:7:constexpr tflite::RecordingSimpleMemoryAllocator::RecordingSimpleMemoryAllocator(const tflite::RecordingSimpleMemoryAllocator&)	16	static
+recording_simple_memory_allocator.cc:34:33:static tflite::RecordingSimpleMemoryAllocator* tflite::RecordingSimpleMemoryAllocator::Create(tflite::ErrorReporter*, uint8_t*, size_t)	80	static
+recording_simple_memory_allocator.cc:48:8:size_t tflite::RecordingSimpleMemoryAllocator::GetRequestedBytes() const	16	static
+recording_simple_memory_allocator.cc:52:8:size_t tflite::RecordingSimpleMemoryAllocator::GetUsedBytes() const	16	static
+recording_simple_memory_allocator.cc:56:8:size_t tflite::RecordingSimpleMemoryAllocator::GetAllocatedCount() const	16	static
+recording_simple_memory_allocator.cc:60:14:virtual TfLiteStatus tflite::RecordingSimpleMemoryAllocator::SetHeadBufferSize(size_t, size_t)	32	static
+recording_simple_memory_allocator.cc:72:10:virtual uint8_t* tflite::RecordingSimpleMemoryAllocator::AllocateFromTail(size_t, size_t)	32	static

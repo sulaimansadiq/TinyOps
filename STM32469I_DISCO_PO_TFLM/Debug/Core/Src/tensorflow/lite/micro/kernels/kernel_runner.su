@@ -1,0 +1,9 @@
+kernel_runner.cc:32:1:tflite::micro::KernelRunner::KernelRunner(const TfLiteRegistration&, TfLiteTensor*, int, TfLiteIntArray*, TfLiteIntArray*, void*)	24	static
+kernel_runner.cc:57:14:TfLiteStatus tflite::micro::KernelRunner::InitAndPrepare(const char*, size_t)	32	static
+kernel_runner.cc:68:14:TfLiteStatus tflite::micro::KernelRunner::Invoke()	16	static
+kernel_runner.cc:76:15:static TfLiteTensor* tflite::micro::KernelRunner::GetTensor(const TfLiteContext*, int)	24	static
+kernel_runner.cc:85:19:static TfLiteEvalTensor* tflite::micro::KernelRunner::GetEvalTensor(const TfLiteContext*, int)	24	static
+kernel_runner.cc:104:7:static void* tflite::micro::KernelRunner::AllocatePersistentBuffer(TfLiteContext*, size_t)	24	static
+kernel_runner.cc:113:14:static TfLiteStatus tflite::micro::KernelRunner::RequestScratchBufferInArena(TfLiteContext*, size_t, int*)	40	static
+kernel_runner.cc:140:7:static void* tflite::micro::KernelRunner::GetScratchBuffer(TfLiteContext*, int)	24	static
+kernel_runner.cc:152:6:)	28	static

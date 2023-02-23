@@ -1,0 +1,2 @@
+quantize_common.cc:46:14:TfLiteStatus tflite::PrepareQuantizeReference(TfLiteContext*, TfLiteNode*)	32	static
+quantize_common.cc:104:14:TfLiteStatus tflite::EvalQuantizeReference(TfLiteContext*, TfLiteNode*)	192	static

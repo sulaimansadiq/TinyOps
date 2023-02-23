@@ -1,0 +1,6 @@
+transpose_conv.cc:113:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+transpose_conv.cc:118:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	128	static
+transpose_conv.h:25:13:void tflite::reference_ops::TransposeConv(const tflite::ConvParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*, const tflite::RuntimeShape&, float*)	200	static
+transpose_conv.h:24:13:void tflite::reference_integer_ops::TransposeConv(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, int8_t*, const tflite::RuntimeShape&, int8_t*, int32_t*)	152	static
+transpose_conv.cc:199:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	296	static
+transpose_conv.cc:258:20:TfLiteRegistration tflite::Register_TRANSPOSE_CONV()	12	static

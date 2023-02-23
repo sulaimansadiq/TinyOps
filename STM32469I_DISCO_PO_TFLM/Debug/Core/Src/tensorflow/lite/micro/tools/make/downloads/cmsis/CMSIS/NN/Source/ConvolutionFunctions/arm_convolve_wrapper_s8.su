@@ -1,0 +1,2 @@
+arm_convolve_wrapper_s8.c:50:12:arm_convolve_wrapper_s8	56	static
+arm_convolve_wrapper_s8.c:108:9:arm_convolve_wrapper_s8_get_buffer_size	24	static

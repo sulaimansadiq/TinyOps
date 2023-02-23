@@ -1,0 +1,1 @@
+arm_nn_mat_mult_kernel_s8_s16_reordered.c:43:7:arm_nn_mat_mult_kernel_s8_s16_reordered	936	static,ignoring_inline_asm

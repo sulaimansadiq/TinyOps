@@ -1,0 +1,3 @@
+squeeze.cc:39:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	32	static
+squeeze.cc:82:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	16	static
+squeeze.cc:100:20:TfLiteRegistration tflite::Register_SQUEEZE()	12	static

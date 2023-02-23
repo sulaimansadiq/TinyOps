@@ -1,0 +1,7 @@
+memory_helpers.cc:30:10:uint8_t* tflite::AlignPointerUp(uint8_t*, size_t)	0	static
+memory_helpers.cc:37:10:uint8_t* tflite::AlignPointerDown(uint8_t*, size_t)	0	static
+memory_helpers.cc:44:8:size_t tflite::AlignSizeUp(size_t, size_t)	0	static
+memory_helpers.cc:49:14:TfLiteStatus tflite::TfLiteTypeSizeOf(TfLiteType, size_t*)	0	static
+memory_helpers.cc:96:14:TfLiteStatus tflite::BytesRequiredForTensor(const tflite::Tensor&, size_t*, size_t*, tflite::ErrorReporter*)	32	static
+memory_helpers.cc:116:14:TfLiteStatus tflite::TfLiteEvalTensorByteLength(const TfLiteEvalTensor*, size_t*)	16	static
+memory_helpers.cc:133:14:TfLiteStatus tflite::AllocateOutputDimensionsFromInput(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*)	64	static

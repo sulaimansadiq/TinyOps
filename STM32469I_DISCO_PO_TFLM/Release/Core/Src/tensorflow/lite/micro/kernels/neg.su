@@ -1,0 +1,2 @@
+neg.cc:30:14:TfLiteStatus tflite::ops::micro::neg::Eval(TfLiteContext*, TfLiteNode*)	72	static
+neg.cc:53:20:TfLiteRegistration tflite::ops::micro::Register_NEG()	8	static

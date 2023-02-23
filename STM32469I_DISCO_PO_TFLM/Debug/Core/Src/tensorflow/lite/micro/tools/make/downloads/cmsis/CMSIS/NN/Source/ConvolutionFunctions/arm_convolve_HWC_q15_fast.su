@@ -1,0 +1,1 @@
+arm_convolve_HWC_q15_fast.c:79:12:arm_convolve_HWC_q15_fast	240	static,ignoring_inline_asm

@@ -1,0 +1,12 @@
+reduce.cc:48:7:void* tflite::ops::micro::reduce::InitReduce(TfLiteContext*, const char*, size_t)	0	static
+reduce.cc:261:14:TfLiteStatus tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)	64	static
+reduce.h:260:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const uint8_t*, int32_t, float, const tflite::RuntimeShape&, uint8_t*, int32_t, float)	208	static
+reduce.cc:52:14:TfLiteStatus tflite::ops::micro::reduce::PrepareSimple(TfLiteContext*, TfLiteNode*)	24	static
+reduce.cc:81:14:TfLiteStatus tflite::ops::micro::reduce::PrepareMax(TfLiteContext*, TfLiteNode*)	40	static
+reduce.cc:102:14:TfLiteStatus tflite::ops::micro::reduce::PrepareMeanOrSum(TfLiteContext*, TfLiteNode*)	40	static
+reduce.cc:127:6:void tflite::ops::micro::reduce::ResolveAxis(const int*, int, tflite::MeanParams*)	8	static
+reduce.cc:318:20:TfLiteRegistration tflite::ops::micro::Register_MEAN()	12	static
+reduce.cc:329:20:TfLiteRegistration tflite::ops::micro::Register_REDUCE_MAX()	12	static
+reduce.h:217:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	136	static
+mean.h:24:13:void tflite::reference_integer_ops::Mean(const tflite::MeanParams&, int32_t, int32_t, const tflite::RuntimeShape&, const integer_type*, int32_t, const tflite::RuntimeShape&, integer_type*, int32_t) [with integer_type = signed char]	200	static
+reduce.cc:139:14:TfLiteStatus tflite::ops::micro::reduce::EvalMean(TfLiteContext*, TfLiteNode*)	184	static

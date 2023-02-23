@@ -1,0 +1,19 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+cmath:222:3:constexpr float std::exp(float)	16	static
+cmath:1756:3:constexpr float std::round(float)	16	static
+common.h:317:13:void tflite::gen_lut(float (*)(float), float, float, int16_t*, int)	96	static
+kernel_util.h:147:12:int tflite::NumDimensions(const TfLiteTensor*)	16	static
+kernel_util.h:152:12:int tflite::NumInputs(const TfLiteNode*)	16	static
+kernel_util.h:153:12:int tflite::NumOutputs(const TfLiteNode*)	16	static
+softmax_common.cc:30:14:TfLiteStatus tflite::{anonymous}::CalculateSoftmaxParams(TfLiteContext*, const TfLiteTensor*, TfLiteTensor*, const TfLiteSoftmaxParams*, tflite::SoftmaxParams*)	96	static
+softmax_common.cc:87:7:void* tflite::SoftmaxInit(TfLiteContext*, const char*, size_t)	24	static
+softmax_common.cc:128:13:tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)::<lambda(float)>	16	static
+softmax_common.cc:128:13:static float tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)::<lambda(float)>::_FUN(float)	16	static
+softmax_common.cc:128:13:tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)::<lambda(float)>::operator float (*)(float)() const	16	static
+softmax_common.cc:130:13:tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)::<lambda(float)>	16	static
+softmax_common.cc:130:13:static float tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)::<lambda(float)>::_FUN(float)	16	static
+softmax_common.cc:130:13:tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)::<lambda(float)>::operator float (*)(float)() const	16	static
+softmax_common.cc:92:14:TfLiteStatus tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)	72	static
+cppmath.h:36:1:T tflite::TfLiteRound(T) [with T = float]	16	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = float]	16	static

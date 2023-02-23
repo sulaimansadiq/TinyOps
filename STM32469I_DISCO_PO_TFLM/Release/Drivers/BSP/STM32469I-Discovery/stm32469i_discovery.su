@@ -1,0 +1,9 @@
+stm32469i_discovery.c:114:10:BSP_GetVersion	0	static
+stm32469i_discovery.c:128:6:BSP_LED_Init	56	static
+stm32469i_discovery.c:179:6:BSP_LED_DeInit	16	static
+stm32469i_discovery.c:204:6:BSP_LED_On	0	static
+stm32469i_discovery.c:222:6:BSP_LED_Off	0	static
+stm32469i_discovery.c:239:6:BSP_LED_Toggle	0	static
+stm32469i_discovery.c:259:6:BSP_PB_Init	48	static
+stm32469i_discovery.c:301:6:BSP_PB_DeInit	8	static
+stm32469i_discovery.c:319:10:BSP_PB_GetState	8	static

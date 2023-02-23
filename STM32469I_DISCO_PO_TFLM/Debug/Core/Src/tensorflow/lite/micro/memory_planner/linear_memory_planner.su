@@ -1,0 +1,10 @@
+memory_planner.h:48:3:tflite::MemoryPlanner::MemoryPlanner()	16	static
+memory_planner.h:49:11:tflite::MemoryPlanner::~MemoryPlanner()	16	static
+memory_planner.h:49:11:virtual tflite::MemoryPlanner::~MemoryPlanner()	16	static
+linear_memory_planner.cc:20:1:tflite::LinearMemoryPlanner::LinearMemoryPlanner()	16	static
+linear_memory_planner.cc:22:1:tflite::LinearMemoryPlanner::~LinearMemoryPlanner()	16	static
+linear_memory_planner.cc:22:1:virtual tflite::LinearMemoryPlanner::~LinearMemoryPlanner()	16	static
+linear_memory_planner.cc:24:14:virtual TfLiteStatus tflite::LinearMemoryPlanner::AddBuffer(tflite::ErrorReporter*, int, int, int)	24	static
+linear_memory_planner.cc:38:8:virtual size_t tflite::LinearMemoryPlanner::GetMaximumMemorySize()	16	static
+linear_memory_planner.cc:40:5:virtual int tflite::LinearMemoryPlanner::GetBufferCount()	16	static
+linear_memory_planner.cc:42:14:virtual TfLiteStatus tflite::LinearMemoryPlanner::GetOffsetForBuffer(tflite::ErrorReporter*, int, int*)	24	static

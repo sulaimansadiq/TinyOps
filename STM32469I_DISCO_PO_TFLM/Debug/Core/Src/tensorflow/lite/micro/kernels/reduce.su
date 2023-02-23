@@ -1,0 +1,100 @@
+instrumentation.h:195:3:ruy::profiler::ScopeLabel::~ScopeLabel()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+limits:525:7:static constexpr signed char std::numeric_limits<signed char>::min()	4	static
+limits:528:7:static constexpr signed char std::numeric_limits<signed char>::max()	4	static
+limits:532:7:static constexpr signed char std::numeric_limits<signed char>::lowest()	8	static
+limits:595:7:static constexpr unsigned char std::numeric_limits<unsigned char>::min()	4	static
+limits:598:7:static constexpr unsigned char std::numeric_limits<unsigned char>::max()	4	static
+limits:1135:7:static constexpr unsigned int std::numeric_limits<unsigned int>::max()	4	static
+limits:1204:7:static constexpr long int std::numeric_limits<long int>::min()	4	static
+limits:1207:7:static constexpr long int std::numeric_limits<long int>::max()	4	static
+limits:1672:7:static constexpr float std::numeric_limits<float>::lowest()	4	static
+cmath:1418:3:constexpr float std::fmax(float, float)	16	static
+cmath:1438:3:constexpr float std::fmin(float, float)	16	static
+cmath:1756:3:constexpr float std::round(float)	16	static
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	64	static
+types.h:202:3:tflite::RuntimeShape::~RuntimeShape()	16	static
+types.h:212:18:int32_t tflite::RuntimeShape::DimensionsCount() const	16	static
+types.h:213:18:int32_t tflite::RuntimeShape::Dims(int) const	16	static
+types.h:218:15:void tflite::RuntimeShape::SetDim(int, int32_t)	24	static
+types.h:228:19:int32_t* tflite::RuntimeShape::DimsData()	16	static
+types.h:231:25:const int32_t* tflite::RuntimeShape::DimsData() const	16	static
+types.h:235:25:const int32_t* tflite::RuntimeShape::DimsDataUpTo5D() const	16	static
+types.h:237:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:278:30:static tflite::RuntimeShape tflite::RuntimeShape::ExtendedShape(int, const tflite::RuntimeShape&)	24	static
+types.h:304:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	40	static
+types.h:348:13:bool tflite::NextIndex(int, const int*, int*)	40	static
+types.h:375:15:size_t tflite::ReducedOutputOffset(int, const int*, const int*, int, const int*)	40	static
+types.h:403:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	32	static
+common.h:156:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	32	static
+reduce.h:58:13:bool tflite::reference_ops::ResolveAxis(int, const int*, int64_t, int*, int*)	56	static
+reduce.h:260:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const uint8_t*, int32_t, float, const tflite::RuntimeShape&, uint8_t*, int32_t, float)	176	static
+kernel_util.h:161:16:int64_t tflite::NumElements(const TfLiteIntArray*)	32	static
+kernel_util.h:169:16:int64_t tflite::NumElements(const TfLiteTensor*)	16	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+reduce.cc:48:7:void* tflite::ops::micro::reduce::InitReduce(TfLiteContext*, const char*, size_t)	24	static
+reduce.cc:52:14:TfLiteStatus tflite::ops::micro::reduce::PrepareSimple(TfLiteContext*, TfLiteNode*)	64	static
+reduce.cc:81:14:TfLiteStatus tflite::ops::micro::reduce::PrepareMax(TfLiteContext*, TfLiteNode*)	48	static
+reduce.cc:102:14:TfLiteStatus tflite::ops::micro::reduce::PrepareMeanOrSum(TfLiteContext*, TfLiteNode*)	56	static
+reduce.cc:127:6:void tflite::ops::micro::reduce::ResolveAxis(const int*, int, tflite::MeanParams*)	32	static
+reduce.cc:139:14:TfLiteStatus tflite::ops::micro::reduce::EvalMean(TfLiteContext*, TfLiteNode*)	336	static
+reduce.cc:278:7:tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)::<lambda(float, float)>	24	static
+reduce.cc:278:7:static float tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)::<lambda(float, float)>::_FUN(float, float)	16	static
+reduce.cc:278:7:tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)::<lambda(float, float)>::operator float (*)(float, float)() const	16	static
+reduce.cc:295:7:tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)::<lambda(int8_t, int8_t)>	16	static
+reduce.cc:295:7:static int8_t tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)::<lambda(int8_t, int8_t)>::_FUN(int8_t, int8_t)	16	static
+reduce.cc:295:7:tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)::<lambda(int8_t, int8_t)>::operator int8_t (*)(int8_t, int8_t)() const	16	static
+reduce.cc:261:14:TfLiteStatus tflite::ops::micro::reduce::EvalMax(TfLiteContext*, TfLiteNode*)	160	static
+reduce.cc:318:20:TfLiteRegistration tflite::ops::micro::Register_MEAN()	24	static
+reduce.cc:329:20:TfLiteRegistration tflite::ops::micro::Register_REDUCE_MAX()	24	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	56	static
+cppmath.h:36:1:T tflite::TfLiteRound(T) [with T = float]	16	static
+instrumentation.h:191:12:) [with Args = {const char*}]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = int]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+reduce.h:217:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	136	static
+reduce.h:162:13:bool tflite::reference_ops::Mean(const T*, const int*, int, T*, const int*, int, const int*, int, bool, int*, int*, U*) [with T = float; U = float]	96	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+mean.h:24:13:void tflite::reference_integer_ops::Mean(const tflite::MeanParams&, int32_t, int32_t, const tflite::RuntimeShape&, const integer_type*, int32_t, const tflite::RuntimeShape&, integer_type*, int32_t) [with integer_type = signed char]	136	static
+reduce.h:162:13:bool tflite::reference_ops::Mean(const T*, const int*, int, T*, const int*, int, const int*, int, bool, int*, int*, U*) [with T = signed char; U = long int]	96	static
+reduce.h:323:13:bool tflite::reference_ops::QuantizedMeanOrSum(const T*, int32_t, float, const int*, int, T*, int32_t, float, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = signed char; U = long int]	160	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = unsigned char]	16	static
+reduce.h:162:13:bool tflite::reference_ops::Mean(const T*, const int*, int, T*, const int*, int, const int*, int, bool, int*, int*, U*) [with T = unsigned char; U = long unsigned int]	96	static
+reduce.h:323:13:bool tflite::reference_ops::QuantizedMeanOrSum(const T*, int32_t, float, const int*, int, T*, int32_t, float, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = unsigned char; U = long unsigned int]	160	static
+reduce.h:128:13:bool tflite::reference_ops::ReduceGeneric(const T*, const int*, int, T*, const int*, int, const int*, int64_t, bool, int*, int*, T, T (*)(T, T)) [with T = float]	64	static
+reduce.h:128:13:bool tflite::reference_ops::ReduceGeneric(const T*, const int*, int, T*, const int*, int, const int*, int64_t, bool, int*, int*, T, T (*)(T, T)) [with T = signed char]	56	static
+fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename gemmlowp::FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = long int]	16	static
+fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = long int]	16	static
+fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+reduce.h:98:18:tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = float; Out = float]::<lambda(float, float)>	32	static
+reduce.h:98:18:static float tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = float; Out = float]::<lambda(float, float)>::_FUN(float, float)	16	static
+reduce.h:98:18:tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = float; Out = float]::<lambda(float, float)>::operator float (*)(float, float)() const	16	static
+reduce.h:93:13:bool tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = float; Out = float]	56	static
+reduce.h:98:18:tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = signed char; Out = long int]::<lambda(long int, signed char)>	32	static
+reduce.h:98:18:static long int tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = signed char; Out = long int]::<lambda(long int, signed char)>::_FUN(long int, signed char)	16	static
+reduce.h:98:18:tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = signed char; Out = long int]::<lambda(long int, signed char)>::operator long int (*)(long int, signed char)() const	16	static
+reduce.h:93:13:bool tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = signed char; Out = long int]	56	static
+min.h:28:10:T tflite::TfLiteMin(const T&, const T&) [with T = float]	16	static
+max.h:28:10:T tflite::TfLiteMax(const T&, const T&) [with T = float]	16	static
+reduce.h:98:18:tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = unsigned char; Out = long unsigned int]::<lambda(long unsigned int, unsigned char)>	32	static
+reduce.h:98:18:static long unsigned int tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = unsigned char; Out = long unsigned int]::<lambda(long unsigned int, unsigned char)>::_FUN(long unsigned int, unsigned char)	16	static
+reduce.h:98:18:tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = unsigned char; Out = long unsigned int]::<lambda(long unsigned int, unsigned char)>::operator long unsigned int (*)(long unsigned int, unsigned char)() const	16	static
+reduce.h:93:13:bool tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = unsigned char; Out = long unsigned int]	56	static
+reduce.h:108:13:bool tflite::reference_ops::InitTensorDataForReduce(const int*, int, T, T*) [with T = float]	40	static
+reduce.h:34:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = float; Out = float]	56	static
+reduce.h:108:13:bool tflite::reference_ops::InitTensorDataForReduce(const int*, int, T, T*) [with T = signed char]	40	static
+reduce.h:34:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = signed char; Out = signed char]	56	static
+fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = long int]	16	static
+reduce.h:34:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = signed char; Out = long int]	56	static
+reduce.h:34:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = unsigned char; Out = long unsigned int]	56	static
+fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = long int]	16	static

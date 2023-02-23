@@ -1,0 +1,1 @@
+arm_convolve_HWC_q7_basic_nonsquare.c:68:12:arm_convolve_HWC_q7_basic_nonsquare	232	static,ignoring_inline_asm
