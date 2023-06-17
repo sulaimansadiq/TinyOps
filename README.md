@@ -25,7 +25,16 @@ We trained our models in PyTorch, followed by standard INT8 post training quanti
 To train the models, run
 
 ```bash
-python -u Train.TinyOps.TfPad/imagenet.py -a proxyless -d datasets/imagenet_2012/ --epochs 150 --lr-decay cos --lr 0.05 --wd 4e-5 --net_config mbv3-w0.50-r128.json -c mbv3-w0.50-r128/
+python 
+-u Train.TinyOps.TfPad/imagenet.py 
+-a proxyless 
+-d datasets/imagenet_2012/ 
+--epochs 150 
+--lr-decay cos 
+--lr 0.05 
+--wd 4e-5 
+--net_config mbv3-w0.50-r128.json 
+-c mbv3-w0.50-r128/
 ```
 
 The models trained in PyTorch can then be quantised using standard post-training INT8 quantisation in tensorflow by running
