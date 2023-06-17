@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.722868744">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.722868744" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.722868744" name="Debug" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.722868744." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug.877511340" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug">
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.1351075351" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="true" value="STM32F469NIHx" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.2030134106" name="CPU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.387728127" name="Core" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1810760350" name="Floating-point unit" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.value.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1794856145" name="Floating-point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.880820001" name="Board" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" useByScannerDiscovery="false" value="STM32F469I-DISCO" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1440031938" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.5 || Debug || true || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || STM32F469I-DISCO || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Drivers/CMSIS/Include | ../Core/Inc | ../Drivers/STM32F4xx_HAL_Driver/Inc | ../Drivers/CMSIS/Device/ST/STM32F4xx/Include | ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy ||  ||  || USE_HAL_DRIVER | STM32F469xx ||  || Drivers | Core/Startup | Core ||  ||  || ${workspace_loc:/${ProjName}/STM32F469NIHX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None || " valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.convertbinary.678776524" name="Convert to binary file (-O binary)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.convertbinary" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.2060282358" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+							<builder buildPath="${workspace_loc:/STM32469I_DISCO_PO_TFLM}/Debug" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.1175311357" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.188488268" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.1000566923" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.definedsymbols.1175559165" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.definedsymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.1340054451" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1288275358" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.1418366128" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.325513162" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.2110367583" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="CMSIS_NN"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F469xx"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.2111877044" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../Core/Inc"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/examples/hello_world}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/BSP/STM32469I-Discovery}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/ruy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/flatbuffers/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/gemmlowp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/Core/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1478416775" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.63825094" name="MCU G++ Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.749735324" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.610654733" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.43656848" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="CMSIS_NN"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F469xx"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includepaths.1163740039" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../Core/Inc"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/examples/hello_world}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/BSP/STM32469I-Discovery}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/gemmlowp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/ruy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/flatbuffers/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/Core/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1725342989" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1674244952" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1512197917" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.1163651216" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" value="${workspace_loc:/${ProjName}/STM32F469NIHX_FLASH.ld}" valueType="string"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.1857878215" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.190498004" name="MCU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.1160840598" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile.1567394235" name="MCU Output Converter list file" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex.570893108" name="MCU Output Converter Hex" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary.400387643" name="MCU Output Converter Binary" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog.902370098" name="MCU Output Converter Verilog" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec.1785761958" name="MCU Output Converter Motorola S-rec" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec.1298472573" name="MCU Output Converter Motorola S-rec with symbols" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.65-r080-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.50-r112-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/proxyless-w0.30-r144-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mnasnet-w0.40-r080-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.45-r096-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/proxyless-w0.70-r064-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mnasnet-w0.65-r064-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mnasnet-w0.60-r064-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mnasnet-w0.45-r080-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.40-r096-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.35-r096-test.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_1.0_96_int8_cpu_75.cc|Src/tensorflow/lite/micro/examples/hello_world/v3-small-minimalistic_224_1.0_int8.cc|Src/tensorflow/lite/micro/examples/hello_world/v3-small-minimalistic_224_1.0_int8_regqat_s11_orig_50.3.cc|Src/tensorflow/lite/micro/examples/hello_world/mbv2_0.5_192_int8_cpu_1.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/VWW/vww4_128_128_INT8.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/VWW/vww3_128_128_INT8.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/VWW/vww2_50_50_INT8.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/KWS|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/AD|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MNASNet|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/proxyless-w0.3-r176_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/proxyless-w0.25-r112_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mcunet-512kb-2mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mcunet-320kb-1mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mcunet-256kb-1mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mbv2-w0.3-r80_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mbv2-w0.35-r144_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/v3-small-minimalistic_224_1.0_float_test.cc|Src/tensorflow/lite/micro/examples/hello_world/v3-small_224_1.0_float_test.cc|Src/tensorflow/lite/micro/examples/hello_world/mcunet-256kb-1mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_0.5_192_test.cc|Src/tensorflow/lite/micro/examples/hello_world/model_mbv2_w0_3_r80.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_1.0_96_test.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_1.0_128.cc|Src/tensorflow/lite/micro/examples/hello_world/test/mnasnet-w1_3-r224.cc|Src/tensorflow/lite/micro/examples/hello_world/test/mnasnet-w1_0-r192.cc|Src/tensorflow/lite/micro/examples/hello_world/test/mnasnet-w0_75-r224.cc|Src/tensorflow/lite/micro/examples/hello_world/test/mnasnet-w0_5-r224.cc|Src/tensorflow/lite/micro/examples/hello_world/main.cc|Src/tensorflow/lite/micro/examples/hello_world/simple_ff.cc|Src/tensorflow/lite/micro/examples/hello_world/model.cc|Src/tensorflow/lite/micro/examples/hello_world/model_proxyless-w0.3-r176_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/model_proxyless_w0_25_r_112.cc|Src/tensorflow/lite/micro/examples/hello_world/model_mcunet-320kb-1mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/model_mbv2-w0.35-r144_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_1.0_224.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_1.0_192.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_0.75_128.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_0.5_224.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_0.75_224.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_0.5_224.cc|Src/tensorflow/lite/micro/examples/hello_world/mcunet-320kb-1mb_imagenet_2.cc|Src/tensorflow/lite/micro/examples/hello_world/efficientnet-lite0-int8_test.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry excluding="mcunet-256kb-1mb_imagenet.cc|mbv2-w0.3-r80_imagenet.cc|mcunet-320kb-1mb_imagenet.cc|proxyless-w0.25-r112_imagenet.cc|mcunet-512kb-2mb_imagenet.cc|proxyless-w0.3-r176_imagenet.cc|mbv2-w0.35-r144_imagenet.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet"/>
+						<entry excluding="mcunet-256kb-1mb_imagenet.cc|proxyless-w0.25-r112_imagenet.cc|mbv2-w0.3-r80_imagenet.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet_2"/>
+						<entry excluding="mnasnet_1.0_128.cc|mnasnet_1.0_160_3.cc|mnasnet_1_0_192_2.cc|mnasnet_0.75_224_6.cc|mnasnet_0.5_224_3.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MNASNet"/>
+						<entry excluding="mnasnet_1.0_96_int8_327.cc|mnasnet_1.0_192_int8_32.cc|mnasnet_1.0_128_int8_5.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MNASNet_2"/>
+						<entry excluding="mnasnet-w1.00-r096_int8_6.cc|mnasnet-w1.00-r080_int8_9.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MNASNet_3"/>
+						<entry excluding="mbv3-w0.45-r096_int8_2.cc|mbv3-w0.40-r096_int8_3.cc|mbv3-w0.25-r144_int8_7.cc|mbv3-w0.60-r080_int8_7.cc|mbv3-w0.60-r064_int8_10.cc|mbv3-w0.50-r096_int8_10.cc|mbv3-w0.45-r112_int8_5.cc|mbv3-w0.25-r176_int8_6.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/Mbv3"/>
+						<entry excluding="proxyless-w0.25-r160_int8_10.cc|proxyless-w0.85-r064_int8_2.cc|proxyless-w0.75-r160_int8_2.cc|proxyless-w0.75-r112_int8_7.cc|proxyless-w0.65-r224_int8_3.cc|proxyless-w0.50-r112_int8_8.cc|proxyless-w0.45-r080_int8_7.cc|proxyless-w0.40-r080_int8_8.cc|proxyless-w0.25-r192_int8_5.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/Proxyless"/>
+						<entry excluding="proxyless-w0.30-r144_int8_2.cc|mbv3-w0.55-r112_int8_5.cc|mnasnet-w1.00-r128_int8_2.cc|mcunet_f412-w1.00-r160_int8_1.cc|mbv3-w0.75-r128_int8_3.cc|mnasnet-w1.00-r080_int8_5.cc|mbv3-w0.50-r112_int8_5.cc|proxyless-w0.30-r152_int8_3.cc|mbv3-w0.90-r128_int8_4.cc|mbv3-w0.75-r144_int8_3.cc|mnasnet-w1.00-r096_int8_4.cc|mbv3-w0.80-r144_int8_5.cc|mbv3-w0.70-r160_int8_5.cc|mbv3-w1.00-r192_int8_2.cc|mbv3-w1.00-r120_int8_7.cc|mbv3-w0.95-r128_int8_3.cc|mbv3-w0.95-r112_int8_3.cc|mnasnet-w1.00-r152_int8_10.cc|mnasnet-w1.00-r112_int8_2.cc|mbv3-w0.65-r080_int8_4.cc|proxyless-w0.30-r176_int8_1.cc|mnasnet-w1.00-r144_int8_3.cc|mcunet_f746-w1.00-r176_int8_1.cc|mbv3-w0.55-r128_int8_3.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_Models"/>
+						<entry excluding="proxyless-w0.30-r048-test.cc|proxyless-w0.50-r192.cc|proxyless-w0.50-r176.cc|proxyless-w0.75-r160.cc|proxyless-w0.75-r144.cc|proxyless-w0.75-r128.cc|proxyless-w0.50-r144.cc|proxyless-w0.50-r160.cc|proxyless-w0.50-r128.cc|proxyless-w0.75-r112.cc|proxyless-w0.75-r096.cc|proxyless-w0.75-r080.cc|proxyless-w0.75-r064.cc|proxyless-w0.75-r048.cc|proxyless-w0.50-r112.cc|proxyless-w0.50-r096.cc|proxyless-w0.50-r080.cc|proxyless-w0.50-r064.cc|proxyless-w0.50-r048.cc|proxyless-w0.75-r224.cc|proxyless-w0.75-r208.cc|proxyless-w0.75-r192.cc|proxyless-w0.75-r176.cc|proxyless-w0.30-r144-test.cc|proxyless-w0.30-r128-test.cc|proxyless-w0.30-r112-test.cc|proxyless-w0.30-r096-test.cc|proxyless-w0.30-r080-test.cc|proxyless-w0.30-r064-test.cc|proxyless-w0.50-r224.cc|proxyless-w0.50-r208.cc|proxyless-w0.30-r224-test.cc|proxyless-w0.30-r208-test.cc|proxyless-w0.30-r192-test.cc|proxyless-w0.30-r176-test.cc|proxyless-w0.30-r160-test.cc|proxyless-w0.30-r144.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_TestModels"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1669496545">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1669496545" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1669496545" name="Release" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1669496545." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release.544893536" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release">
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.292768549" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="true" value="STM32F469NIHx" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.773136032" name="CPU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.1815159860" name="Core" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.227238746" name="Floating-point unit" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.value.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.267180331" name="Floating-point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.1767908557" name="Board" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" useByScannerDiscovery="false" value="STM32F469I-DISCO" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.563248082" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.5 || Release || false || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || STM32F469I-DISCO || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Drivers/CMSIS/Include | ../Core/Inc | ../Drivers/STM32F4xx_HAL_Driver/Inc | ../Drivers/CMSIS/Device/ST/STM32F4xx/Include | ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy ||  ||  || USE_HAL_DRIVER | STM32F469xx ||  || Drivers | Core/Startup | Core ||  ||  || ${workspace_loc:/${ProjName}/STM32F469NIHX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None || " valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.convertbinary.938965744" name="Convert to binary file (-O binary)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.convertbinary" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.259867581" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+							<builder buildPath="${workspace_loc:/STM32469I_DISCO_PO_TFLM}/Release" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.277409077" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.1708308871" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.1308127461" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.1886974017" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1446716691" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.1026197739" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.264072953" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.value.ofast" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.1725279712" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="TF_LITE_STRIP_ERROR_STRINGS"/>
+									<listOptionValue builtIn="false" value="CMSIS_NN"/>
+									<listOptionValue builtIn="false" value="STM32F469xx"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.659167372" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../Core/Inc"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/examples/hello_world}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/BSP/STM32469I-Discovery}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/gemmlowp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/ruy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/flatbuffers/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/Core/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.629453621" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.1571363345" name="MCU G++ Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.1239748892" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.805072157" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.value.ofast" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.621799901" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="TF_LITE_STRIP_ERROR_STRINGS"/>
+									<listOptionValue builtIn="false" value="CMSIS_NN"/>
+									<listOptionValue builtIn="false" value="STM32F469xx"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includepaths.180249311" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../Core/Inc"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/examples/hello_world}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/BSP/STM32469I-Discovery}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/ruy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/flatbuffers/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/third_party/gemmlowp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/Core/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Core/Src}&quot;"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1957186132" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.991631311" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1456966314" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.323315681" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" useByScannerDiscovery="false" value="${workspace_loc:/${ProjName}/STM32F469NIHX_FLASH.ld}" valueType="string"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.1724804454" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.1397555685" name="MCU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.1346502776" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile.1139604885" name="MCU Output Converter list file" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex.364831431" name="MCU Output Converter Hex" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary.207446809" name="MCU Output Converter Binary" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog.1895511118" name="MCU Output Converter Verilog" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec.1052942706" name="MCU Output Converter Motorola S-rec" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec.1642655495" name="MCU Output Converter Motorola S-rec with symbols" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.65-r080-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.50-r112-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/proxyless-w0.30-r144-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mnasnet-w0.40-r080-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.45-r096-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/proxyless-w0.70-r064-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mnasnet-w0.65-r064-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mnasnet-w0.60-r064-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mnasnet-w0.45-r080-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.40-r096-test.cc|Src/tensorflow/lite/micro/examples/hello_world/Test_Models/mbv3-w0.35-r096-test.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_1.0_96_int8_cpu_75.cc|Src/tensorflow/lite/micro/examples/hello_world/v3-small-minimalistic_224_1.0_int8.cc|Src/tensorflow/lite/micro/examples/hello_world/v3-small-minimalistic_224_1.0_int8_regqat_s11_orig_50.3.cc|Src/tensorflow/lite/micro/examples/hello_world/mbv2_0.5_192_int8_cpu_1.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/VWW/vww4_128_128_INT8.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/VWW/vww3_128_128_INT8.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/VWW/vww2_50_50_INT8.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/KWS|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/AD|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MNASNet|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/proxyless-w0.3-r176_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/proxyless-w0.25-r112_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mcunet-512kb-2mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mcunet-320kb-1mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mcunet-256kb-1mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mbv2-w0.3-r80_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet/mbv2-w0.35-r144_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/v3-small-minimalistic_224_1.0_float_test.cc|Src/tensorflow/lite/micro/examples/hello_world/v3-small_224_1.0_float_test.cc|Src/tensorflow/lite/micro/examples/hello_world/mcunet-256kb-1mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_0.5_192_test.cc|Src/tensorflow/lite/micro/examples/hello_world/model_mbv2_w0_3_r80.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_1.0_96_test.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_1.0_128.cc|Src/tensorflow/lite/micro/examples/hello_world/test/mnasnet-w1_3-r224.cc|Src/tensorflow/lite/micro/examples/hello_world/test/mnasnet-w1_0-r192.cc|Src/tensorflow/lite/micro/examples/hello_world/test/mnasnet-w0_75-r224.cc|Src/tensorflow/lite/micro/examples/hello_world/test/mnasnet-w0_5-r224.cc|Src/tensorflow/lite/micro/examples/hello_world/main.cc|Src/tensorflow/lite/micro/examples/hello_world/simple_ff.cc|Src/tensorflow/lite/micro/examples/hello_world/model.cc|Src/tensorflow/lite/micro/examples/hello_world/model_proxyless-w0.3-r176_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/model_proxyless_w0_25_r_112.cc|Src/tensorflow/lite/micro/examples/hello_world/model_mcunet-320kb-1mb_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/model_mbv2-w0.35-r144_imagenet.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_1.0_224.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_1.0_192.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_0.75_128.cc|Src/tensorflow/lite/micro/examples/hello_world/mobilenet_v1_0.5_224.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_0.75_224.cc|Src/tensorflow/lite/micro/examples/hello_world/mnasnet_0.5_224.cc|Src/tensorflow/lite/micro/examples/hello_world/mcunet-320kb-1mb_imagenet_2.cc|Src/tensorflow/lite/micro/examples/hello_world/efficientnet-lite0-int8_test.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry excluding="mcunet-256kb-1mb_imagenet.cc|mbv2-w0.3-r80_imagenet.cc|mcunet-320kb-1mb_imagenet.cc|proxyless-w0.25-r112_imagenet.cc|mcunet-512kb-2mb_imagenet.cc|proxyless-w0.3-r176_imagenet.cc|mbv2-w0.35-r144_imagenet.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet"/>
+						<entry excluding="mcunet-256kb-1mb_imagenet.cc|proxyless-w0.25-r112_imagenet.cc|mbv2-w0.3-r80_imagenet.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MCUNet_2"/>
+						<entry excluding="mnasnet_1.0_128.cc|mnasnet_1.0_160_3.cc|mnasnet_1_0_192_2.cc|mnasnet_0.75_224_6.cc|mnasnet_0.5_224_3.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MNASNet"/>
+						<entry excluding="mnasnet_1.0_96_int8_327.cc|mnasnet_1.0_192_int8_32.cc|mnasnet_1.0_128_int8_5.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MNASNet_2"/>
+						<entry excluding="mnasnet-w1.00-r096_int8_6.cc|mnasnet-w1.00-r080_int8_9.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/MNASNet_3"/>
+						<entry excluding="mbv3-w0.45-r096_int8_2.cc|mbv3-w0.40-r096_int8_3.cc|mbv3-w0.25-r144_int8_7.cc|mbv3-w0.60-r080_int8_7.cc|mbv3-w0.60-r064_int8_10.cc|mbv3-w0.50-r096_int8_10.cc|mbv3-w0.45-r112_int8_5.cc|mbv3-w0.25-r176_int8_6.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/Mbv3"/>
+						<entry excluding="proxyless-w0.25-r160_int8_10.cc|proxyless-w0.85-r064_int8_2.cc|proxyless-w0.75-r160_int8_2.cc|proxyless-w0.75-r112_int8_7.cc|proxyless-w0.65-r224_int8_3.cc|proxyless-w0.50-r112_int8_8.cc|proxyless-w0.45-r080_int8_7.cc|proxyless-w0.40-r080_int8_8.cc|proxyless-w0.25-r192_int8_5.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet/Proxyless"/>
+						<entry excluding="proxyless-w0.30-r144_int8_2.cc|mbv3-w0.55-r112_int8_5.cc|mnasnet-w1.00-r128_int8_2.cc|mcunet_f412-w1.00-r160_int8_1.cc|mbv3-w0.75-r128_int8_3.cc|mnasnet-w1.00-r080_int8_5.cc|mbv3-w0.50-r112_int8_5.cc|proxyless-w0.30-r152_int8_3.cc|mbv3-w0.90-r128_int8_4.cc|mbv3-w0.75-r144_int8_3.cc|mnasnet-w1.00-r096_int8_4.cc|mbv3-w0.80-r144_int8_5.cc|mbv3-w0.70-r160_int8_5.cc|mbv3-w1.00-r192_int8_2.cc|mbv3-w1.00-r120_int8_7.cc|mbv3-w0.95-r128_int8_3.cc|mbv3-w0.95-r112_int8_3.cc|mnasnet-w1.00-r152_int8_10.cc|mnasnet-w1.00-r112_int8_2.cc|mbv3-w0.65-r080_int8_4.cc|proxyless-w0.30-r176_int8_1.cc|mnasnet-w1.00-r144_int8_3.cc|mcunet_f746-w1.00-r176_int8_1.cc|mbv3-w0.55-r128_int8_3.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_Models"/>
+						<entry excluding="proxyless-w0.30-r048-test.cc|proxyless-w0.50-r192.cc|proxyless-w0.50-r176.cc|proxyless-w0.75-r160.cc|proxyless-w0.75-r144.cc|proxyless-w0.75-r128.cc|proxyless-w0.50-r144.cc|proxyless-w0.50-r160.cc|proxyless-w0.50-r128.cc|proxyless-w0.75-r112.cc|proxyless-w0.75-r096.cc|proxyless-w0.75-r080.cc|proxyless-w0.75-r064.cc|proxyless-w0.75-r048.cc|proxyless-w0.50-r112.cc|proxyless-w0.50-r096.cc|proxyless-w0.50-r080.cc|proxyless-w0.50-r064.cc|proxyless-w0.50-r048.cc|proxyless-w0.75-r224.cc|proxyless-w0.75-r208.cc|proxyless-w0.75-r192.cc|proxyless-w0.75-r176.cc|proxyless-w0.30-r144-test.cc|proxyless-w0.30-r128-test.cc|proxyless-w0.30-r112-test.cc|proxyless-w0.30-r096-test.cc|proxyless-w0.30-r080-test.cc|proxyless-w0.30-r064-test.cc|proxyless-w0.50-r224.cc|proxyless-w0.50-r208.cc|proxyless-w0.30-r224-test.cc|proxyless-w0.30-r208-test.cc|proxyless-w0.30-r192-test.cc|proxyless-w0.30-r176-test.cc|proxyless-w0.30-r160-test.cc|proxyless-w0.30-r144.cc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_TestModels"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="STM32469I_DISCO_PO_TFLM.null.1303431373" name="STM32469I_DISCO_PO_TFLM"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.722868744;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.722868744.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1288275358;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1478416775">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1669496545;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1669496545.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.1571363345;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1957186132">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1669496545;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1669496545.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1446716691;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.629453621">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.722868744;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.722868744.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.63825094;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1725342989">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/STM32F469I_DISCO_PO_TFLM"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/STM32F469I_DISCO_PO_TFLM"/>
+		</configuration>
+	</storageModule>
+</cproject>

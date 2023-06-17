@@ -1,0 +1,2 @@
+arm_depthwise_conv_s8_opt.c:57:12:arm_depthwise_conv_s8_opt	840	static,ignoring_inline_asm
+arm_depthwise_conv_s8_opt.c:424:9:arm_depthwise_conv_s8_opt_get_buffer_size	16	static

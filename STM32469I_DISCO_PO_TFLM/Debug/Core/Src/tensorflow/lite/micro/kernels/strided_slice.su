@@ -1,0 +1,57 @@
+instrumentation.h:195:3:ruy::profiler::ScopeLabel::~ScopeLabel()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+limits:1065:7:static constexpr int std::numeric_limits<int>::min()	4	static
+limits:1068:7:static constexpr int std::numeric_limits<int>::max()	4	static
+limits:1072:7:static constexpr int std::numeric_limits<int>::lowest()	8	static
+cmath:165:3:constexpr float std::ceil(float)	16	static
+types.h:156:3:tflite::RuntimeShape::RuntimeShape()	16	static
+types.h:175:3:tflite::RuntimeShape::RuntimeShape(int, const int32_t*)	24	static
+types.h:202:3:tflite::RuntimeShape::~RuntimeShape()	16	static
+types.h:212:18:int32_t tflite::RuntimeShape::DimensionsCount() const	16	static
+types.h:213:18:int32_t tflite::RuntimeShape::Dims(int) const	16	static
+types.h:218:15:void tflite::RuntimeShape::SetDim(int, int32_t)	24	static
+types.h:228:19:int32_t* tflite::RuntimeShape::DimsData()	16	static
+types.h:231:25:const int32_t* tflite::RuntimeShape::DimsData() const	16	static
+types.h:237:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:255:15:void tflite::RuntimeShape::ReplaceWith(int, const int32_t*)	32	static
+types.h:278:30:static tflite::RuntimeShape tflite::RuntimeShape::ExtendedShape(int, const tflite::RuntimeShape&)	24	static
+types.h:304:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	40	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	32	static
+strided_slice_logic.h:29:12:int tflite::strided_slice::Clamp(int, int, int)	24	static
+strided_slice_logic.h:36:13:void tflite::strided_slice::StridedSlicePadIndices(tflite::StridedSliceParams*, int)	32	static
+strided_slice_logic.h:75:12:int tflite::strided_slice::StartForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int)	48	static
+strided_slice_logic.h:122:12:int tflite::strided_slice::StopForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int, int)	48	static
+strided_slice_logic.h:177:13:bool tflite::strided_slice::LoopCondition(int, int, int)	24	static
+kernel_util.h:147:12:int tflite::NumDimensions(const TfLiteTensor*)	16	static
+kernel_util.h:152:12:int tflite::NumInputs(const TfLiteNode*)	16	static
+kernel_util.h:153:12:int tflite::NumOutputs(const TfLiteNode*)	16	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+strided_slice.cc:39:3:tflite::ops::micro::strided_slice::StridedSliceContext::StridedSliceContext(TfLiteContext*, TfLiteNode*)	24	static
+strided_slice.cc:61:28:tflite::StridedSliceParams tflite::ops::micro::strided_slice::BuildStridedSliceParams(tflite::ops::micro::strided_slice::StridedSliceContext*)	24	static
+strided_slice.cc:85:14:TfLiteStatus tflite::ops::micro::strided_slice::CheckOutputSize(TfLiteContext*, tflite::ops::micro::strided_slice::StridedSliceContext*)	184	static
+strided_slice.cc:120:7:void* tflite::ops::micro::strided_slice::Init(TfLiteContext*, const char*, size_t)	24	static
+strided_slice.cc:125:14:TfLiteStatus tflite::ops::micro::strided_slice::Prepare(TfLiteContext*, TfLiteNode*)	160	static
+strided_slice.cc:139:14:TfLiteStatus tflite::ops::micro::strided_slice::Eval(TfLiteContext*, TfLiteNode*)	192	static
+strided_slice.cc:179:20:TfLiteRegistration tflite::ops::micro::Register_STRIDED_SLICE()	24	static
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = long int]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+strided_slice.h:97:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	32	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = unsigned char]	16	static
+strided_slice.h:97:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = unsigned char]	32	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+strided_slice.h:97:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	32	static
+portable_tensor.h:106:3:tflite::SequentialTensorWriter<T>::SequentialTensorWriter(const T*, T*) [with T = float]	24	static
+strided_slice.h:30:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = float]	264	static
+portable_tensor.h:106:3:tflite::SequentialTensorWriter<T>::SequentialTensorWriter(const T*, T*) [with T = unsigned char]	24	static
+strided_slice.h:30:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = unsigned char]	264	static
+portable_tensor.h:106:3:tflite::SequentialTensorWriter<T>::SequentialTensorWriter(const T*, T*) [with T = signed char]	24	static
+strided_slice.h:30:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = signed char]	264	static
+instrumentation.h:191:12:) [with Args = {const char*}]	16	static
+portable_tensor.h:109:8:void tflite::SequentialTensorWriter<T>::Write(int) [with T = float]	16	static
+portable_tensor.h:109:8:void tflite::SequentialTensorWriter<T>::Write(int) [with T = unsigned char]	16	static
+portable_tensor.h:109:8:void tflite::SequentialTensorWriter<T>::Write(int) [with T = signed char]	16	static

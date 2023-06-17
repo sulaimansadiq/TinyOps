@@ -1,0 +1,55 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+limits:1668:7:static constexpr float std::numeric_limits<float>::max()	4	static
+limits:1672:7:static constexpr float std::numeric_limits<float>::lowest()	4	static
+types.h:156:3:tflite::RuntimeShape::RuntimeShape()	16	static
+types.h:175:3:tflite::RuntimeShape::RuntimeShape(int, const int32_t*)	24	static
+types.h:202:3:tflite::RuntimeShape::~RuntimeShape()	16	static
+types.h:212:18:int32_t tflite::RuntimeShape::DimensionsCount() const	16	static
+types.h:213:18:int32_t tflite::RuntimeShape::Dims(int) const	16	static
+types.h:228:19:int32_t* tflite::RuntimeShape::DimsData()	16	static
+types.h:235:25:const int32_t* tflite::RuntimeShape::DimsDataUpTo5D() const	16	static
+types.h:237:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:255:15:void tflite::RuntimeShape::ReplaceWith(int, const int32_t*)	32	static
+types.h:403:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	32	static
+types.h:470:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	40	static
+pooling.h:26:13:void tflite::reference_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	176	static
+pooling.h:79:13:void tflite::reference_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, uint8_t*)	160	static
+pooling.h:190:13:void tflite::reference_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	176	static
+pooling.h:240:13:void tflite::reference_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, uint8_t*)	152	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	32	static
+kernel_util.h:148:12:int tflite::SizeOfDimension(const TfLiteTensor*, int)	16	static
+padding.h:33:12:int tflite::ComputePaddingWithOffset(int, int, int, int, int, int*)	32	static
+padding.h:45:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	32	static
+padding.h:58:28:TfLitePaddingValues tflite::ComputePaddingHeightWidth(int, int, int, int, int, int, int, int, TfLitePadding, int*, int*)	40	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+pooling.cc:92:14:TfLiteStatus tflite::ops::micro::pooling::{anonymous}::CalculateOpData(TfLiteContext*, const TfLitePoolParams*, const TfLiteTensor*, TfLiteTensor*, tflite::ops::micro::pooling::{anonymous}::OpData*)	120	static
+pooling.cc:124:6:void tflite::ops::micro::pooling::{anonymous}::AverageEvalFloat(const TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::ops::micro::pooling::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	144	static
+pooling.cc:146:6:void tflite::ops::micro::pooling::{anonymous}::AverageEvalQuantized(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::ops::micro::pooling::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	272	static
+pooling.cc:218:6:void tflite::ops::micro::pooling::{anonymous}::MaxEvalFloat(TfLiteContext*, TfLiteNode*, TfLitePoolParams*, const tflite::ops::micro::pooling::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	144	static
+pooling.cc:239:6:void tflite::ops::micro::pooling::{anonymous}::MaxEvalQuantizedUInt8(TfLiteContext*, TfLiteNode*, TfLitePoolParams*, const tflite::ops::micro::pooling::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	136	static
+pooling.cc:258:14:TfLiteStatus tflite::ops::micro::pooling::{anonymous}::MaxEvalInt8(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::ops::micro::pooling::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	184	static
+pooling.cc:311:7:void* tflite::ops::micro::pooling::Init(TfLiteContext*, const char*, size_t)	24	static
+pooling.cc:316:14:TfLiteStatus tflite::ops::micro::pooling::MaxPrepare(TfLiteContext*, TfLiteNode*)	56	static
+pooling.cc:333:14:TfLiteStatus tflite::ops::micro::pooling::AveragePrepare(TfLiteContext*, TfLiteNode*)	120	static
+pooling.cc:368:14:TfLiteStatus tflite::ops::micro::pooling::AverageEval(TfLiteContext*, TfLiteNode*)	48	static
+pooling.cc:561:14:TfLiteStatus tflite::ops::micro::pooling::MaxEval(TfLiteContext*, TfLiteNode*)	48	static
+pooling.cc:593:20:TfLiteRegistration tflite::ops::micro::Register_AVERAGE_POOL_2D()	24	static
+pooling.cc:604:20:TfLiteRegistration tflite::ops::micro::Register_MAX_POOL_2D()	24	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+common.h:59:10:T tflite::ActivationFunctionWithMinMax(T, T, T) [with T = float]	24	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = int]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = int]	16	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned char]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = unsigned char]	16	static
+kernel_util.h:253:6:void tflite::CalculateActivationRange(TfLiteFusedActivation, T*, T*) [with T = float]	24	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static

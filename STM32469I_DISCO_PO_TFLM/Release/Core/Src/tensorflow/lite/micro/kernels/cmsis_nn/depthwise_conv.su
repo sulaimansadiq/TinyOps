@@ -1,0 +1,6 @@
+depthwise_conv.cc:99:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+depthwise_conv.cc:104:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	272	static
+depthwiseconv_float.h:25:13:void tflite::reference_ops::DepthwiseConv(const tflite::DepthwiseParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	216	static
+depthwise_conv.h:22:13:void tflite::reference_integer_ops::DepthwiseConvPerChannel(const tflite::DepthwiseParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, int8_t*)	184	static
+depthwise_conv.cc:328:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	656	static
+depthwise_conv.cc:593:20:TfLiteRegistration tflite::Register_DEPTHWISE_CONV_2D()	12	static

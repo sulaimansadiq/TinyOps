@@ -1,0 +1,12 @@
+ft6x06.c:114:6:ft6x06_Init	24	static
+ft6x06.c:145:6:ft6x06_Reset	16	static
+ft6x06.c:157:10:ft6x06_ReadID	16	static
+ft6x06.c:173:6:ft6x06_TS_Start	16	static
+ft6x06.c:195:9:ft6x06_TS_DetectTouch	24	static
+ft6x06.c:227:6:ft6x06_TS_GetXY	32	static
+ft6x06.c:266:6:ft6x06_TS_EnableIT	24	static
+ft6x06.c:281:6:ft6x06_TS_DisableIT	24	static
+ft6x06.c:298:9:ft6x06_TS_ITStatus	16	static
+ft6x06.c:311:6:ft6x06_TS_ClearIT	16	static
+ft6x06.c:449:17:ft6x06_TS_Configure	24	static
+ft6x06.c:464:16:ft6x06_GetInstance	24	static

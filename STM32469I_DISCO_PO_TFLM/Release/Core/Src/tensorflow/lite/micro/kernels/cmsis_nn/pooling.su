@@ -1,0 +1,7 @@
+pooling.cc:311:7:void* tflite::ops::micro::pooling::Init(TfLiteContext*, const char*, size_t)	8	static
+pooling.cc:316:14:TfLiteStatus tflite::ops::micro::pooling::MaxPrepare(TfLiteContext*, TfLiteNode*)	40	static
+pooling.cc:561:14:TfLiteStatus tflite::ops::micro::pooling::MaxEval(TfLiteContext*, TfLiteNode*)	424	static
+pooling.cc:333:14:TfLiteStatus tflite::ops::micro::pooling::AveragePrepare(TfLiteContext*, TfLiteNode*)	96	static
+pooling.cc:368:14:TfLiteStatus tflite::ops::micro::pooling::AverageEval(TfLiteContext*, TfLiteNode*)	488	static
+pooling.cc:593:20:TfLiteRegistration tflite::ops::micro::Register_AVERAGE_POOL_2D()	12	static
+pooling.cc:604:20:TfLiteRegistration tflite::ops::micro::Register_MAX_POOL_2D()	12	static

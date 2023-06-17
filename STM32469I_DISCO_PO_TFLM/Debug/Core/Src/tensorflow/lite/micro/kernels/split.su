@@ -1,0 +1,23 @@
+kernel_util.h:153:12:int tflite::NumOutputs(const TfLiteNode*)	16	static
+kernel_util.h:178:13:bool tflite::IsConstantTensor(const TfLiteTensor*)	16	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+split.cc:70:14:TfLiteStatus tflite::ops::micro::split::Prepare(TfLiteContext*, TfLiteNode*)	40	static
+split.cc:82:14:TfLiteStatus tflite::ops::micro::split::Eval(TfLiteContext*, TfLiteNode*)	48	static
+split.cc:122:20:TfLiteRegistration tflite::ops::micro::Register_SPLIT()	24	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	16	static
+split.cc:28:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = float]	120	static
+split.cc:28:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = unsigned char]	120	static
+split.cc:28:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = signed char]	120	static
+split.cc:28:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = short int]	120	static
+split.cc:28:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = long int]	120	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = long int]	16	static

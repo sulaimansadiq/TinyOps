@@ -1,0 +1,3 @@
+shape.cc:44:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	24	static
+shape.cc:37:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	0	static
+shape.cc:62:20:TfLiteRegistration tflite::Register_SHAPE()	12	static

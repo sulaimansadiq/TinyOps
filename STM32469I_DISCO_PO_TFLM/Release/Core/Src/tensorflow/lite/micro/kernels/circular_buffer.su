@@ -1,0 +1,10 @@
+flexbuffers.h:846:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long long unsigned int]	0	static
+flexbuffers.h:846:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = unsigned char]	0	static
+flexbuffers.h:846:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = short unsigned int]	0	static
+flexbuffers.h:846:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long unsigned int]	0	static
+circular_buffer.cc:88:14:TfLiteStatus tflite::ops::micro::circular_buffer::Prepare(TfLiteContext*, TfLiteNode*)	24	static
+circular_buffer.cc:143:14:TfLiteStatus tflite::ops::micro::circular_buffer::Eval(TfLiteContext*, TfLiteNode*)	24	static
+flexbuffers.h:423:11:int64_t flexbuffers::Reference::AsInt64() const	24	static
+circular_buffer.cc:72:7:void* tflite::ops::micro::circular_buffer::Init(TfLiteContext*, const char*, size_t)	48	static
+circular_buffer.cc:138:6:void tflite::ops::micro::circular_buffer::EvalInt8(const int8_t*, int, int, int8_t*)	16	static
+circular_buffer.cc:178:21:TfLiteRegistration* tflite::ops::micro::Register_CIRCULAR_BUFFER()	0	static

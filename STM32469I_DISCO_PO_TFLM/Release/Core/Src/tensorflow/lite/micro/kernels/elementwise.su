@@ -1,0 +1,18 @@
+elementwise.cc:40:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::GenericPrepare(TfLiteContext*, TfLiteNode*) [with bool (* <anonymous>)(TfLiteType) = tflite::ops::micro::elementwise::{anonymous}::IsLogicalSupportedType]	16	static
+elementwise.cc:81:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::AbsEval(TfLiteContext*, TfLiteNode*)	16	static
+elementwise.cc:101:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::RsqrtEval(TfLiteContext*, TfLiteNode*)	16	static
+elementwise.cc:85:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::SinEval(TfLiteContext*, TfLiteNode*)	16	static
+elementwise.cc:89:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::CosEval(TfLiteContext*, TfLiteNode*)	16	static
+elementwise.cc:93:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::LogEval(TfLiteContext*, TfLiteNode*)	16	static
+elementwise.cc:97:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::SqrtEval(TfLiteContext*, TfLiteNode*)	16	static
+elementwise.cc:105:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::SquareEval(TfLiteContext*, TfLiteNode*)	16	static
+elementwise.cc:109:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::LogicalNotEval(TfLiteContext*, TfLiteNode*)	16	static
+elementwise.cc:40:14:TfLiteStatus tflite::ops::micro::elementwise::{anonymous}::GenericPrepare(TfLiteContext*, TfLiteNode*) [with bool (* <anonymous>)(TfLiteType) = tflite::ops::micro::elementwise::{anonymous}::IsNumericSupportedType]	16	static
+elementwise.cc:116:20:TfLiteRegistration tflite::ops::micro::Register_ABS()	12	static
+elementwise.cc:128:20:TfLiteRegistration tflite::ops::micro::Register_SIN()	12	static
+elementwise.cc:140:20:TfLiteRegistration tflite::ops::micro::Register_COS()	12	static
+elementwise.cc:152:20:TfLiteRegistration tflite::ops::micro::Register_LOG()	12	static
+elementwise.cc:164:20:TfLiteRegistration tflite::ops::micro::Register_SQRT()	12	static
+elementwise.cc:176:20:TfLiteRegistration tflite::ops::micro::Register_RSQRT()	12	static
+elementwise.cc:188:20:TfLiteRegistration tflite::ops::micro::Register_SQUARE()	12	static
+elementwise.cc:200:20:TfLiteRegistration tflite::ops::micro::Register_LOGICAL_NOT()	12	static

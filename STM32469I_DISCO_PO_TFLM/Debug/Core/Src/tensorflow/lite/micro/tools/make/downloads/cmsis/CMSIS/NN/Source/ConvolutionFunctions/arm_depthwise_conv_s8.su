@@ -1,0 +1,3 @@
+arm_depthwise_conv_s8.c:43:13:depthwise_conv_s8_mult_4	376	static
+arm_depthwise_conv_s8.c:142:13:depthwise_conv_s8_generic	168	static
+arm_depthwise_conv_s8.c:221:12:arm_depthwise_conv_s8	168	static

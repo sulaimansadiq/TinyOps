@@ -1,0 +1,37 @@
+std_abs.h:71:3:constexpr double std::abs(double)	16	static
+cmath:222:3:constexpr float std::exp(float)	16	static
+cmath:501:3:constexpr float std::tanh(float)	16	static
+cmath:661:3:constexpr bool std::signbit(float)	16	static
+cmath:1418:3:constexpr float std::fmax(float, float)	16	static
+cmath:1438:3:constexpr float std::fmin(float, float)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+limits:1204:7:static constexpr long int std::numeric_limits<long int>::min()	4	static
+limits:1207:7:static constexpr long int std::numeric_limits<long int>::max()	4	static
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	64	static
+common.h:156:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	32	static
+kernel_util.h:147:12:int tflite::NumDimensions(const TfLiteTensor*)	16	static
+activation_utils.h:32:14:float tflite::ops::micro::ActivationValFloat(TfLiteFusedActivation, float)	48	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+svdf_common.cc:51:6:void tflite::EvalIntegerSvdfReference(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, TfLiteEvalTensor*, TfLiteEvalTensor*, const tflite::OpData&)	224	static
+svdf_common.cc:195:20:void tflite::ApplyTimeWeightsBiasAndActivation(int, int, int, int, int, const float*, const float*, TfLiteFusedActivation, float*, float*, float*)	104	static
+svdf_common.cc:257:6:void tflite::EvalFloatSvdfReference(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, int, TfLiteEvalTensor*, TfLiteEvalTensor*)	160	static
+svdf_common.cc:330:14:TfLiteStatus tflite::PrepareSvdf(TfLiteContext*, TfLiteNode*)	128	static
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	56	static
+max.h:28:10:T tflite::TfLiteMax(const T&, const T&) [with T = float]	16	static
+min.h:28:10:T tflite::TfLiteMin(const T&, const T&) [with T = float]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename gemmlowp::FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = long int]	16	static
+fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = long int]	16	static
+fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = long int]	16	static

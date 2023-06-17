@@ -1,0 +1,2 @@
+micro_time.cc:42:9:int32_t tflite::ticks_per_second()	0	static
+micro_time.cc:48:9:int32_t tflite::GetCurrentTimeTicks()	0	static

@@ -1,0 +1,1 @@
+arm_depthwise_separable_conv_HWC_q7_nonsquare.c:74:12:arm_depthwise_separable_conv_HWC_q7_nonsquare	440	static,ignoring_inline_asm

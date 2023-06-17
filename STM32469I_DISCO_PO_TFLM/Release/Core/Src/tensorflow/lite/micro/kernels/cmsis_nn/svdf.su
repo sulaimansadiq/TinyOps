@@ -1,0 +1,4 @@
+svdf.cc:281:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+svdf.cc:286:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	80	static
+svdf.cc:423:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	312	static
+svdf.cc:469:20:TfLiteRegistration tflite::Register_SVDF()	12	static

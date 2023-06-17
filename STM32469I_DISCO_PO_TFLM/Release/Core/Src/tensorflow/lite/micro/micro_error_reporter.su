@@ -1,0 +1,4 @@
+micro_error_reporter.h:40:3:tflite::MicroErrorReporter::~MicroErrorReporter()	0	static
+micro_error_reporter.cc:63:5:virtual int tflite::MicroErrorReporter::Report(const char*, va_list)	0	static
+micro_error_reporter.h:40:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	8	static
+micro_error_reporter.cc:56:16:tflite::ErrorReporter* tflite::GetMicroErrorReporter()	0	static

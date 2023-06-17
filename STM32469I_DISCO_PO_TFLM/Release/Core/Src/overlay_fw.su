@@ -1,0 +1,14 @@
+overlay_fw.cc:658:6:void tflite::MicroInterpreter::PartitionAddOp(const TfLiteContext*, TfLiteNode*, const TfLiteRegistration*, volatile PartitionInfo*, uint32_t)	16	static
+overlay_fw.cc:142:10:uint32_t tflite::MicroInterpreter::Partition_GetMaxSize(const TfLiteContext*, tflite::NodeAndRegistration*, volatile PartitionedExecutionState*)	56	static
+overlay_fw.cc:208:6:void tflite::MicroInterpreter::PartitionConvOp(const TfLiteContext*, TfLiteNode*, const TfLiteRegistration*, volatile PartitionInfo*, uint32_t)	48	static
+overlay_fw.cc:399:6:void tflite::MicroInterpreter::PartitionPoolOp(const TfLiteContext*, TfLiteNode*, const TfLiteRegistration*, volatile PartitionInfo*, uint32_t)	32	static
+overlay_fw.cc:559:6:void tflite::MicroInterpreter::PartitionPadOp(const TfLiteContext*, TfLiteNode*, const TfLiteRegistration*, volatile PartitionInfo*, uint32_t)	32	static
+overlay_fw.cc:658:6:void tflite::MicroInterpreter::PartitionAddOp(const TfLiteContext*, TfLiteNode*, const TfLiteRegistration*, volatile PartitionInfo*, uint32_t)	24	static
+overlay_fw.cc:732:6:void tflite::MicroInterpreter::PartitionMulOp(const TfLiteContext*, TfLiteNode*, const TfLiteRegistration*, volatile PartitionInfo*, uint32_t)	24	static
+overlay_fw.cc:806:6:void tflite::MicroInterpreter::PartitionHardSwishOp(const TfLiteContext*, TfLiteNode*, const TfLiteRegistration*, volatile PartitionInfo*, uint32_t)	16	static
+overlay_fw.cc:878:6:void tflite::MicroInterpreter::OVERLAY_GetMaxSizes(const TfLiteContext*, tflite::NodeAndRegistration*, volatile PartitionedExecutionState*)	296	static
+overlay_fw.cc:50:6:void tflite::MicroInterpreter::PartitionOp(const TfLiteContext*, tflite::NodeAndRegistration*, volatile PartitionedExecutionState*)	96	static
+overlay_fw.cc:1073:6:void OVERLAY_CopyInData(volatile DMACopyQue*, volatile PartitionInfo*, uint32_t, const volatile TfLiteEvalTensor*, volatile TfLiteEvalTensor*)	36	static
+overlay_fw.cc:1112:6:void OVERLAY_CopyInData(volatile DMACopyQue*, volatile PartitionInfo*, uint32_t, const volatile TfLiteEvalTensor*, volatile TfLiteEvalTensor*, const volatile TfLiteEvalTensor*, volatile TfLiteEvalTensor*)	48	static
+overlay_fw.cc:1161:6:void OVERLAY_CopyInData(volatile DMACopyQue*, volatile PartitionInfo*, uint32_t, volatile TfLiteEvalTensor*, volatile TfLiteEvalTensor*)	56	static
+overlay_fw.cc:1200:6:void DMA_CopyTensor(volatile DMACopyQue*, const volatile TfLiteEvalTensor*, volatile TfLiteEvalTensor*)	12	static

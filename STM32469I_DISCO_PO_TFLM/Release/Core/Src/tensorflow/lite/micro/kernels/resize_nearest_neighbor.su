@@ -1,0 +1,3 @@
+resize_nearest_neighbor.cc:34:14:TfLiteStatus tflite::ops::micro::resize_nearest_neighbor::Prepare(TfLiteContext*, TfLiteNode*)	24	static
+resize_nearest_neighbor.cc:58:14:TfLiteStatus tflite::ops::micro::resize_nearest_neighbor::Eval(TfLiteContext*, TfLiteNode*)	472	static
+resize_nearest_neighbor.cc:108:20:TfLiteRegistration tflite::ops::micro::Register_RESIZE_NEAREST_NEIGHBOR()	12	static

@@ -1,0 +1,2 @@
+schema_utils.cc:45:17:tflite::BuiltinOperator tflite::GetBuiltinCode(const tflite::OperatorCode*)	8	static
+schema_utils.cc:54:17:tflite::BuiltinOperator tflite::GetBuiltinCode(const tflite::OperatorCodeT*)	8	static

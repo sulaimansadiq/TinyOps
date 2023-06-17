@@ -1,0 +1,10 @@
+tanh.cc:44:7:void* tflite::ops::micro::activations::{anonymous}::TanhInit(TfLiteContext*, const char*, size_t)	8	static
+tanh.cc:75:14:TfLiteStatus tflite::ops::micro::activations::{anonymous}::TanhPrepare(TfLiteContext*, TfLiteNode*)	24	static
+tanh.cc:146:20:TfLiteRegistration tflite::ops::micro::Register_TANH()	12	static
+fixedpoint.h:795:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::one_minus_x_over_one_plus_x_for_x_in_0_1(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	64	static
+fixedpoint.h:795:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::one_minus_x_over_one_plus_x_for_x_in_0_1(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = short int]	20	static
+fixedpoint.h:721:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	56	static
+fixedpoint.h:746:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_negative_values(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>) [with tRawType = long int; int tIntegerBits = 5]	88	static
+fixedpoint.h:721:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = short int]	12	static
+fixedpoint.h:746:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_negative_values(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>) [with tRawType = short int; int tIntegerBits = 4]	16	static
+tanh.cc:88:14:TfLiteStatus tflite::ops::micro::activations::TanhEval(TfLiteContext*, TfLiteNode*)	296	static

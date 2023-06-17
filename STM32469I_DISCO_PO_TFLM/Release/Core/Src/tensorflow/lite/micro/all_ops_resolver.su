@@ -1,0 +1,9 @@
+op_resolver.h:44:35:virtual tflite::OpResolver::TfLiteDelegatePtrVector tflite::OpResolver::GetDelegates(int) const	0	static
+micro_mutable_op_resolver.h:44:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 128]	8	static
+all_ops_resolver.h:28:7:tflite::AllOpsResolver::~AllOpsResolver()	0	static
+micro_mutable_op_resolver.h:67:41:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 128]	16	static
+micro_mutable_op_resolver.h:56:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 128]	24	static
+all_ops_resolver.h:28:7:virtual tflite::AllOpsResolver::~AllOpsResolver()	8	static
+micro_op_resolver.h:53:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(tflite::BuiltinOperator, int) const	8	static
+micro_op_resolver.h:60:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	24	static
+all_ops_resolver.cc:22:1:tflite::AllOpsResolver::AllOpsResolver()	64	static

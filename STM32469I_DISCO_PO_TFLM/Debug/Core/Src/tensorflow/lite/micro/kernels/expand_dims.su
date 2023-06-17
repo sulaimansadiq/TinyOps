@@ -1,0 +1,20 @@
+types.h:202:3:tflite::RuntimeShape::~RuntimeShape()	16	static
+types.h:212:18:int32_t tflite::RuntimeShape::DimensionsCount() const	16	static
+kernel_util.h:152:12:int tflite::NumInputs(const TfLiteNode*)	16	static
+kernel_util.h:153:12:int tflite::NumOutputs(const TfLiteNode*)	16	static
+kernel_util.h:184:13:bool tflite::IsDynamicTensor(const TfLiteTensor*)	16	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+expand_dims.cc:29:14:TfLiteStatus tflite::{anonymous}::ExpandTensorDim(TfLiteContext*, const TfLiteEvalTensor*, int32_t, TfLiteEvalTensor*)	56	static
+expand_dims.cc:52:14:TfLiteStatus tflite::{anonymous}::GetAxisValueFromTensor(TfLiteContext*, const TfLiteEvalTensor*, int32_t*)	64	static
+expand_dims.cc:74:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	56	static
+expand_dims.cc:100:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	56	static
+expand_dims.cc:141:20:TfLiteRegistration tflite::Register_EXPAND_DIMS()	24	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+expand_dims.cc:94:6:void tflite::{anonymous}::memCopyN(T*, const T*, int) [with T = float]	32	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+expand_dims.cc:94:6:void tflite::{anonymous}::memCopyN(T*, const T*, int) [with T = signed char]	32	static

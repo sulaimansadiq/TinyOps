@@ -1,0 +1,3 @@
+add_n.cc:93:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	56	static
+add_n.cc:70:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	40	static
+add_n.cc:108:20:TfLiteRegistration tflite::Register_ADD_N()	12	static

@@ -1,0 +1,8 @@
+kernel_util.h:147:12:int tflite::NumDimensions(const TfLiteTensor*)	16	static
+kernel_util.h:152:12:int tflite::NumInputs(const TfLiteNode*)	16	static
+kernel_util.h:153:12:int tflite::NumOutputs(const TfLiteNode*)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+squeeze.cc:30:3:tflite::{anonymous}::SqueezeContext::SqueezeContext(TfLiteContext*, TfLiteNode*)	24	static
+squeeze.cc:39:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	104	static
+squeeze.cc:82:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	56	static
+squeeze.cc:100:20:TfLiteRegistration tflite::Register_SQUEEZE()	24	static

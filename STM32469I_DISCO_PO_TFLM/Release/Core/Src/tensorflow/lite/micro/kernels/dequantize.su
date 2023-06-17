@@ -1,0 +1,4 @@
+dequantize.cc:41:7:void* tflite::ops::micro::dequantize::Init(TfLiteContext*, const char*, size_t)	8	static
+dequantize.cc:46:14:TfLiteStatus tflite::ops::micro::dequantize::Prepare(TfLiteContext*, TfLiteNode*)	24	static
+dequantize.cc:78:14:TfLiteStatus tflite::ops::micro::dequantize::Eval(TfLiteContext*, TfLiteNode*)	184	static
+dequantize.cc:126:20:TfLiteRegistration tflite::ops::micro::Register_DEQUANTIZE()	12	static

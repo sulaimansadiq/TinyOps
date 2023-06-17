@@ -1,0 +1,88 @@
+limits:525:7:static constexpr signed char std::numeric_limits<signed char>::min()	4	static
+limits:528:7:static constexpr signed char std::numeric_limits<signed char>::max()	4	static
+limits:595:7:static constexpr unsigned char std::numeric_limits<unsigned char>::min()	4	static
+limits:598:7:static constexpr unsigned char std::numeric_limits<unsigned char>::max()	4	static
+limits:925:7:static constexpr short int std::numeric_limits<short int>::min()	4	static
+limits:928:7:static constexpr short int std::numeric_limits<short int>::max()	4	static
+kernel_util.h:147:12:int tflite::NumDimensions(const TfLiteTensor*)	16	static
+kernel_util.h:148:12:int tflite::SizeOfDimension(const TfLiteTensor*, int)	16	static
+kernel_util.h:161:16:int64_t tflite::NumElements(const TfLiteIntArray*)	32	static
+kernel_util.h:169:16:int64_t tflite::NumElements(const TfLiteTensor*)	16	static
+std_abs.h:71:3:constexpr double std::abs(double)	16	static
+cmath:1756:3:constexpr float std::round(float)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+basic_string.h:6546:3:std::string std::__cxx11::to_string(int)	24	static
+kernel_util.cc:42:22:TfLiteTensor* tflite::{anonymous}::GetTensorAtIndex(const TfLiteContext*, int)	16	static
+kernel_util.cc:52:21:TfLiteStatus tflite::{anonymous}::ValidateTensorIndexingSafe(const TfLiteContext*, int, int, const int*, int*)	32	static
+kernel_util.cc:75:12:int tflite::{anonymous}::ValidateTensorIndexing(const TfLiteContext*, int, int, const int*)	32	static
+kernel_util.cc:86:22:TfLiteTensor* tflite::{anonymous}::GetMutableInput(const TfLiteContext*, const TfLiteNode*, int)	32	static
+kernel_util.cc:96:21:TfLiteStatus tflite::{anonymous}::GetMutableInputSafe(const TfLiteContext*, const TfLiteNode*, int, const TfLiteTensor**)	40	static
+kernel_util.cc:109:21:const TfLiteTensor* tflite::GetInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.cc:114:14:TfLiteStatus tflite::GetInputSafe(const TfLiteContext*, const TfLiteNode*, int, const TfLiteTensor**)	24	static
+kernel_util.cc:119:15:TfLiteTensor* tflite::GetVariableInput(TfLiteContext*, const TfLiteNode*, int)	32	static
+kernel_util.cc:125:15:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	32	static
+kernel_util.cc:135:14:TfLiteStatus tflite::GetOutputSafe(const TfLiteContext*, const TfLiteNode*, int, TfLiteTensor**)	40	static
+kernel_util.cc:145:21:const TfLiteTensor* tflite::GetOptionalInputTensor(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.cc:151:15:TfLiteTensor* tflite::GetTemporary(TfLiteContext*, const TfLiteNode*, int)	32	static
+kernel_util.cc:161:14:TfLiteStatus tflite::GetTemporarySafe(const TfLiteContext*, const TfLiteNode*, int, TfLiteTensor**)	40	static
+kernel_util.cc:172:21:const TfLiteTensor* tflite::GetIntermediates(TfLiteContext*, const TfLiteNode*, int)	32	static
+kernel_util.cc:182:14:TfLiteStatus tflite::GetIntermediatesSafe(const TfLiteContext*, const TfLiteNode*, int, TfLiteTensor**)	40	static
+kernel_util.cc:195:14:TfLiteStatus tflite::PopulateConvolutionQuantizationParams(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, const TfLiteFusedActivation&, int32_t*, int*, int32_t*, int32_t*, int32_t*, int*)	72	static
+kernel_util.cc:210:14:TfLiteStatus tflite::PopulateConvolutionQuantizationParams(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, const TfLiteFusedActivation&, int32_t*, int*, int32_t*, int32_t*, int32_t*, int*, int)	128	static
+kernel_util.cc:285:14:TfLiteStatus tflite::GetQuantizedConvolutionMultipler(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, double*)	72	static
+kernel_util.cc:322:14:TfLiteStatus tflite::GetQuantizedConvolutionMultipler(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, double*)	48	static
+kernel_util.cc:343:19:tflite::{anonymous}::CalculateActivationRangeQuantizedImpl(TfLiteFusedActivation, int32_t, int32_t, TfLiteTensor*, int32_t*, int32_t*)::<lambda(float)>	16	static
+kernel_util.cc:336:6:void tflite::{anonymous}::CalculateActivationRangeQuantizedImpl(TfLiteFusedActivation, int32_t, int32_t, TfLiteTensor*, int32_t*, int32_t*)	64	static
+kernel_util.cc:363:14:TfLiteStatus tflite::CalculateActivationRangeQuantized(TfLiteContext*, TfLiteFusedActivation, TfLiteTensor*, int32_t*, int32_t*)	48	static
+kernel_util.cc:388:6:bool tflite::HaveSameShapes(const TfLiteTensor*, const TfLiteTensor*)	16	static
+kernel_util.cc:399:13:std::string tflite::GetShapeDebugString(const TfLiteIntArray*)	120	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = int]	16	static
+kernel_util.cc:411:14:TfLiteStatus tflite::CalculateShapeForBroadcast(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, TfLiteIntArray**)	120	static
+kernel_util.cc:440:14:TfLiteStatus tflite::CalculateShapeForBroadcast(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, TfLiteIntArray**)	168	static
+kernel_util.cc:473:5:int tflite::TfLiteTypeGetSize(TfLiteType)	16	static
+kernel_util.cc:518:6:bool tflite::IsMobilePlatform()	4	static
+string_conversions.h:99:5:) [with _String = std::__cxx11::basic_string<char>; _CharT = char]	44	dynamic
+basic_string.h:6109:5:std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	24	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+cppmath.h:36:1:T tflite::TfLiteRound(T) [with T = float]	16	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+unique_ptr.h:236:2:std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer, std::__enable_if_t<(! std::is_lvalue_reference<_Del>::value), _Del&&>) [with _Del = void (*)(TfLiteIntArray*); <template-parameter-2-2> = void; _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	32	static
+unique_ptr.h:286:7:std::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	32	static
+unique_ptr.h:352:7:std::unique_ptr<_Tp, _Dp>::pointer std::unique_ptr<_Tp, _Dp>::operator->() const [with _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	16	static
+unique_ptr.h:381:7:std::unique_ptr<_Tp, _Dp>::pointer std::unique_ptr<_Tp, _Dp>::release() [with _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	24	static
+basic_string.h:625:9:std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&) [with _InputIterator = char*; <template-parameter-2-2> = void; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	32	static
+move.h:99:5:constexpr typename std::remove_reference<_Tp>::type&& std::move(_Tp&&) [with _Tp = std::__cxx11::basic_string<char>&]	16	static
+move.h:99:5:constexpr typename std::remove_reference<_Tp>::type&& std::move(_Tp&&) [with _Tp = void (*&)(TfLiteIntArray*)]	16	static
+unique_ptr.h:150:7:std::__uniq_ptr_impl<_Tp, _Dp>::__uniq_ptr_impl(std::__uniq_ptr_impl<_Tp, _Dp>::pointer, _Del&&) [with _Del = void (*)(TfLiteIntArray*); _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	32	static
+unique_ptr.h:153:18:std::__uniq_ptr_impl<_Tp, _Dp>::pointer& std::__uniq_ptr_impl<_Tp, _Dp>::_M_ptr() [with _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	16	static
+unique_ptr.h:365:7:std::unique_ptr<_Tp, _Dp>::deleter_type& std::unique_ptr<_Tp, _Dp>::get_deleter() [with _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	16	static
+move.h:99:5:constexpr typename std::remove_reference<_Tp>::type&& std::move(_Tp&&) [with _Tp = TfLiteIntArray*&]	16	static
+unique_ptr.h:360:7:std::unique_ptr<_Tp, _Dp>::pointer std::unique_ptr<_Tp, _Dp>::get() const [with _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	16	static
+basic_string.h:263:9:void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct(_InIterator, _InIterator) [with _InIterator = char*; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	32	static
+move.h:74:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = void (*)(TfLiteIntArray*)]	16	static
+tuple:968:19:constexpr std::tuple<_T1, _T2>::tuple(_U1&&, _U2&&) [with _U1 = TfLiteIntArray*&; _U2 = void (*)(TfLiteIntArray*); typename std::enable_if<((std::_TC<true, _T1, _T2>::_MoveConstructibleTuple<_U1, _U2>() && std::_TC<true, _T1, _T2>::_ImplicitlyMoveConvertibleTuple<_U1, _U2>()) && (! std::is_same<typename std::remove_cv<typename std::remove_reference<_SrcTuple>::type>::type, std::allocator_arg_t>::value)), bool>::type <anonymous> = true; _T1 = TfLiteIntArray*; _T2 = void (*)(TfLiteIntArray*)]	32	static
+tuple:1320:5:>&) [with unsigned int __i = 0; _Elements = {TfLiteIntArray*, void (*)(TfLiteIntArray*)}]	16	static
+unique_ptr.h:155:18:_Dp& std::__uniq_ptr_impl<_Tp, _Dp>::_M_deleter() [with _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	16	static
+unique_ptr.h:154:18:std::__uniq_ptr_impl<_Tp, _Dp>::pointer std::__uniq_ptr_impl<_Tp, _Dp>::_M_ptr() const [with _Tp = TfLiteIntArray; _Dp = void (*)(TfLiteIntArray*)]	16	static
+basic_string.h:243:9:void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct_aux(_InIterator, _InIterator, std::__false_type) [with _InIterator = char*; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	40	static
+move.h:74:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = TfLiteIntArray*&]	16	static
+tuple:216:19:) [with _UHead = TfLiteIntArray*&; _UTail = {void (*)(TfLiteIntArray*)}; <template-parameter-2-3> = void; unsigned int _Idx = 0; _Head = TfLiteIntArray*; _Tail = {void (*)(TfLiteIntArray*)}]	32	static
+tuple:1309:5:>&) [with unsigned int __i = 0; _Head = TfLiteIntArray*; _Tail = {void (*)(TfLiteIntArray*)}]	16	static
+tuple:1320:5:>&) [with unsigned int __i = 1; _Elements = {TfLiteIntArray*, void (*)(TfLiteIntArray*)}]	16	static
+tuple:1326:5:>&) [with unsigned int __i = 0; _Elements = {TfLiteIntArray*, void (*)(TfLiteIntArray*)}]	16	static
+basic_string.tcc:206:7:void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct(_InIterator, _InIterator, std::forward_iterator_tag) [with _FwdIterator = char*; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	32	static
+tuple:348:19:constexpr std::_Tuple_impl<_Idx, _Head>::_Tuple_impl(_UHead&&) [with _UHead = void (*)(TfLiteIntArray*); unsigned int _Idx = 1; _Head = void (*)(TfLiteIntArray*)]	24	static
+tuple:132:19:constexpr std::_Head_base<_Idx, _Head, false>::_Head_base(_UHead&&) [with _UHead = TfLiteIntArray*&; unsigned int _Idx = 0; _Head = TfLiteIntArray*]	16	static
+tuple:195:7:>&) [with unsigned int _Idx = 0; _Head = TfLiteIntArray*; _Tail = {void (*)(TfLiteIntArray*)}]	16	static
+tuple:1309:5:>&) [with unsigned int __i = 1; _Head = void (*)(TfLiteIntArray*); _Tail = {}]	16	static
+tuple:1314:5:>&) [with unsigned int __i = 0; _Head = TfLiteIntArray*; _Tail = {void (*)(TfLiteIntArray*)}]	16	static
+type_traits.h:152:5:bool __gnu_cxx::__is_null_pointer(_Type*) [with _Type = char]	16	static
+stl_iterator_base_funcs.h:138:5:typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = char*]	32	static
+tuple:132:19:constexpr std::_Head_base<_Idx, _Head, false>::_Head_base(_UHead&&) [with _UHead = void (*)(TfLiteIntArray*); unsigned int _Idx = 1; _Head = void (*)(TfLiteIntArray*)]	16	static
+tuple:160:7:static constexpr _Head& std::_Head_base<_Idx, _Head, false>::_M_head(std::_Head_base<_Idx, _Head, false>&) [with unsigned int _Idx = 0; _Head = TfLiteIntArray*]	16	static
+tuple:334:7:static constexpr _Head& std::_Tuple_impl<_Idx, _Head>::_M_head(std::_Tuple_impl<_Idx, _Head>&) [with unsigned int _Idx = 1; _Head = void (*)(TfLiteIntArray*)]	16	static
+tuple:198:7:>&) [with unsigned int _Idx = 0; _Head = TfLiteIntArray*; _Tail = {void (*)(TfLiteIntArray*)}]	16	static
+stl_iterator_base_types.h:205:5:constexpr typename std::iterator_traits<_Iterator>::iterator_category std::__iterator_category(const _Iter&) [with _Iter = char*]	16	static
+stl_iterator_base_funcs.h:98:5:constexpr typename std::iterator_traits<_Iterator>::difference_type std::__distance(_RandomAccessIterator, _RandomAccessIterator, std::random_access_iterator_tag) [with _RandomAccessIterator = char*]	24	static
+tuple:160:7:static constexpr _Head& std::_Head_base<_Idx, _Head, false>::_M_head(std::_Head_base<_Idx, _Head, false>&) [with unsigned int _Idx = 1; _Head = void (*)(TfLiteIntArray*)]	16	static
+tuple:163:7:static constexpr const _Head& std::_Head_base<_Idx, _Head, false>::_M_head(const std::_Head_base<_Idx, _Head, false>&) [with unsigned int _Idx = 0; _Head = TfLiteIntArray*]	16	static

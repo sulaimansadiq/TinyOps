@@ -1,0 +1,60 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+limits:525:7:static constexpr signed char std::numeric_limits<signed char>::min()	4	static
+limits:528:7:static constexpr signed char std::numeric_limits<signed char>::max()	4	static
+limits:595:7:static constexpr unsigned char std::numeric_limits<unsigned char>::min()	4	static
+limits:598:7:static constexpr unsigned char std::numeric_limits<unsigned char>::max()	4	static
+limits:1204:7:static constexpr long int std::numeric_limits<long int>::min()	4	static
+limits:1207:7:static constexpr long int std::numeric_limits<long int>::max()	4	static
+limits:1706:7:static constexpr float std::numeric_limits<float>::infinity()	4	static
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	64	static
+types.h:156:3:tflite::RuntimeShape::RuntimeShape()	16	static
+types.h:175:3:tflite::RuntimeShape::RuntimeShape(int, const int32_t*)	24	static
+types.h:202:3:tflite::RuntimeShape::~RuntimeShape()	16	static
+types.h:212:18:int32_t tflite::RuntimeShape::DimensionsCount() const	16	static
+types.h:213:18:int32_t tflite::RuntimeShape::Dims(int) const	16	static
+types.h:228:19:int32_t* tflite::RuntimeShape::DimsData()	16	static
+types.h:231:25:const int32_t* tflite::RuntimeShape::DimsData() const	16	static
+types.h:237:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:255:15:void tflite::RuntimeShape::ReplaceWith(int, const int32_t*)	32	static
+types.h:289:14:int tflite::RuntimeShape::FlatSize() const	32	static
+types.h:519:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	32	static
+common.h:156:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	32	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	32	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+activations.cc:97:13:void tflite::ops::micro::activations::ReluFloat(const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	48	static
+activations.cc:108:13:void tflite::ops::micro::activations::Relu6Float(const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	48	static
+activations.cc:132:7:void* tflite::ops::micro::activations::ReluInit(TfLiteContext*, const char*, size_t)	24	static
+activations.cc:137:14:TfLiteStatus tflite::ops::micro::activations::ReluPrepare(TfLiteContext*, TfLiteNode*)	48	static
+activations.cc:155:14:TfLiteStatus tflite::ops::micro::activations::ReluEval(TfLiteContext*, TfLiteNode*)	192	static
+activations.cc:195:7:void* tflite::ops::micro::activations::Relu6Init(TfLiteContext*, const char*, size_t)	24	static
+activations.cc:200:14:TfLiteStatus tflite::ops::micro::activations::Relu6Prepare(TfLiteContext*, TfLiteNode*)	40	static
+activations.cc:220:14:TfLiteStatus tflite::ops::micro::activations::Relu6Eval(TfLiteContext*, TfLiteNode*)	200	static
+activations.cc:264:20:TfLiteRegistration tflite::ops::micro::Register_RELU()	24	static
+activations.cc:275:20:TfLiteRegistration tflite::ops::micro::Register_RELU6()	24	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	56	static
+activations.cc:69:13:void tflite::ops::micro::activations::CalculateReluOpData(const TfLiteTensor*, TfLiteTensor*, tflite::ops::micro::activations::{anonymous}::ReluOpData*) [with T = signed char]	112	static
+activations.cc:69:13:void tflite::ops::micro::activations::CalculateReluOpData(const TfLiteTensor*, TfLiteTensor*, tflite::ops::micro::activations::{anonymous}::ReluOpData*) [with T = unsigned char]	112	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+activations.cc:50:13:void tflite::ops::micro::activations::ReluQuantized(const tflite::ops::micro::activations::{anonymous}::ReluOpData&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, const T*, T*) [with T = signed char]	48	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = unsigned char]	16	static
+activations.cc:50:13:void tflite::ops::micro::activations::ReluQuantized(const tflite::ops::micro::activations::{anonymous}::ReluOpData&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, const T*, T*) [with T = unsigned char]	48	static
+micro_utils.h:35:3:T tflite::FloatToQuantizedType(float, float, int) [with T = signed char]	48	static
+micro_utils.h:35:3:T tflite::FloatToQuantizedType(float, float, int) [with T = unsigned char]	48	static
+activations.cc:121:13:void tflite::ops::micro::activations::Relu6Quantized(Q, Q, const tflite::RuntimeShape&, const Q*, const tflite::RuntimeShape&, Q*) [with Q = signed char]	40	static
+activations.cc:121:13:void tflite::ops::micro::activations::Relu6Quantized(Q, Q, const tflite::RuntimeShape&, const Q*, const tflite::RuntimeShape&, Q*) [with Q = unsigned char]	40	static
+fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename gemmlowp::FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = long int]	16	static
+fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = long int]	16	static
+fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = long int]	16	static

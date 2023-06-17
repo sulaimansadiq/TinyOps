@@ -1,0 +1,6 @@
+prelu.cc:88:7:void* tflite::ops::micro::activations::PreluInit(TfLiteContext*, const char*, size_t)	8	static
+prelu.cc:93:14:TfLiteStatus tflite::ops::micro::activations::PreluPrepare(TfLiteContext*, TfLiteNode*)	56	static
+prelu.cc:156:20:TfLiteRegistration tflite::ops::micro::Register_PRELU()	12	static
+prelu.h:28:13:void tflite::reference_ops::BroadcastPrelu4DSlow(const tflite::PreluParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = unsigned char]	360	static
+prelu.h:28:13:void tflite::reference_ops::BroadcastPrelu4DSlow(const tflite::PreluParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	360	static
+prelu.cc:107:14:TfLiteStatus tflite::ops::micro::activations::PreluEval(TfLiteContext*, TfLiteNode*)	480	static

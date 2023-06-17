@@ -1,0 +1,8 @@
+activations.cc:132:7:void* tflite::ops::micro::activations::ReluInit(TfLiteContext*, const char*, size_t)	8	static
+activations.cc:195:7:void* tflite::ops::micro::activations::Relu6Init(TfLiteContext*, const char*, size_t)	8	static
+activations.cc:200:14:TfLiteStatus tflite::ops::micro::activations::Relu6Prepare(TfLiteContext*, TfLiteNode*)	24	static
+activations.cc:137:14:TfLiteStatus tflite::ops::micro::activations::ReluPrepare(TfLiteContext*, TfLiteNode*)	88	static
+activations.cc:155:14:TfLiteStatus tflite::ops::micro::activations::ReluEval(TfLiteContext*, TfLiteNode*)	208	static
+activations.cc:220:14:TfLiteStatus tflite::ops::micro::activations::Relu6Eval(TfLiteContext*, TfLiteNode*)	168	static
+activations.cc:264:20:TfLiteRegistration tflite::ops::micro::Register_RELU()	12	static
+activations.cc:275:20:TfLiteRegistration tflite::ops::micro::Register_RELU6()	12	static
