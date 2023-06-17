@@ -16,17 +16,17 @@ We find that conventional approaches in TinyML that only utilise internal storag
 
 | **Platform** |        **Model**       | **Design<br />Space** | **MACs<br />(M)** | **Params<br />(M)** | **Acc<br />(%)** | **Latency<br />(ms)** |       **Link**      |
 |:------------:|:----------------------:|:----------------:|:------------:|:--------------:|:-----------:|:----------------:|:-------------------:|
-|   **F469**   |  Proxyless<br />w0.30-r144  |     Internal     |      21      |      0.72      |     50.7    |       1089       | [json]()<br />[tflite]() |
-|   **F469**   |     MbV3<br />w0.50-r112    |      TinyOps     |      16      |      1.33      |     52.4    |        674       | [json]()<br />[tflite]() |
-|   **F469**   |     MCUNetV1<br />(F469)    |     Internal     |      67      |      0.73      |     59.5    |       2980       | [json]()<br />[tflite]() |
-|   **F469**   |   MNASNet<br />(w1.00-r80)  |      TinyOps     |      48      |      4.38      |     60.8    |       2146       | [json]()<br />[tflite]() |
-|   **F469**   |    MbV3<br />(w0.75-r128)   |      TinyOps     |      44      |      2.49      |     62.6    |       1442       | [json]()<br />[tflite]() |
-|   **F469**   |    MbV3<br />(w1.00-r160)   |      TinyOps     |      111     |      3.96      |     68.2    |       3472       | [json]()<br />[tflite]() |
-|   **F746**   | Proxyless<br />(w0.30-r176) |     Internal     |      32      |      0.72      |     53.7    |        686       | [json]()<br />[tflite]() |
-|   **F746**   |    MbV3<br />(w0.55-r128)   |      TinyOps     |      28      |      1.55      |     58.3    |        460       | [json]()<br />[tflite]() |
-|   **F746**   |     MCUNetV1<br />(F746)    |     Internal     |      82      |      0.74      |     61.5    |       1838       | [json]()<br />[tflite]() |
-|   **F746**   |  MNASNet<br />(w1.00-r128)  |      TinyOps     |      104     |      4.38      |     68.0    |       1367       | [json]()<br />[tflite]() |
-|   **F746**   |    MbV3<br />(w1.00-r160)   |      TinyOps     |      111     |      3.96      |     68.2    |       1307       | [json]()<br />[tflite]() |
+|   **F469**   |  Proxyless<br />w0.30-r144  |     Internal     |      21      |      0.72      |     50.7    |       1089       | [json](https://drive.google.com/file/d/1wxAd5Ps5M3cCiWqoSUoAEnBvl4Jf7ssX/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/1hq2FENkwU-HCwJTftbrL24LDtrVAh1qU/view?usp=sharing) |
+|   **F469**   |     MbV3<br />w0.50-r112    |      TinyOps     |      16      |      1.33      |     52.4    |        674       | [json](https://drive.google.com/file/d/1kz8anQfY_NrL48kpp8Tl790b6u2ZO5Wm/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/1n7pW-OuLCWEAmCeWKSFpO8n8vVCDf50F/view?usp=sharing) |
+|   **F469**   |     MCUNetV1<br />(F469)    |     Internal     |      67      |      0.73      |     59.5    |       2980       | [json](https://drive.google.com/file/d/13bv7VhDGFc39rzCzDN9SMMn5QzKPBaIu/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/1FJx9EzEONe37YZ10L2Q_yHQ-pwueANZK/view?usp=sharing) |
+|   **F469**   |   MNASNet<br />(w1.00-r80)  |      TinyOps     |      48      |      4.38      |     60.8    |       2146       | [json](https://drive.google.com/file/d/1yMj5pK1p6--BfrN8lwNwrEq2jb8w_dOq/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/1wCjnUVhGckwVto9oZsfhMeKUyyzDlmdg/view?usp=sharing) |
+|   **F469**   |    MbV3<br />(w0.75-r128)   |      TinyOps     |      44      |      2.49      |     62.6    |       1442       | [json](https://drive.google.com/file/d/1RqrLURP3XVg90ihGiya6LqtEq5SZ2_zY/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/1N-nCokhzvzgEM_JKfY_EGNZ0kOW_Anfi/view?usp=sharing) |
+|   **F469**   |    MbV3<br />(w1.00-r160)   |      TinyOps     |      111     |      3.96      |     68.2    |       3472       | [json](https://drive.google.com/file/d/1a1dTOCxMmnB32xmlOUrzAAKESF2bf2G0/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/17O2tmDDXPeIO8Sm015APFBNJOcLjOb7r/view?usp=sharing) |
+|   **F746**   | Proxyless<br />(w0.30-r176) |     Internal     |      32      |      0.72      |     53.7    |        686       | [json](https://drive.google.com/file/d/1_eXQNBAk07hBnueCzA_zQCYw9KxJAj0R/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/10FMiSDorM8goqMyiRgvnTvWd95-wZwkL/view?usp=sharing) |
+|   **F746**   |    MbV3<br />(w0.55-r128)   |      TinyOps     |      28      |      1.55      |     58.3    |        460       | [json](https://drive.google.com/file/d/1p0xThFea9N-vsNDi_HgZxnHgbiSk-9CC/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/1eZ1TLrmcOtMvC2p08K3N5jwmm7XlFjyF/view?usp=sharing) |
+|   **F746**   |     MCUNetV1<br />(F746)    |     Internal     |      82      |      0.74      |     61.5    |       1838       | [json](https://drive.google.com/file/d/12Yk47OJzJzoWPehTiDtqChkq6p9XseFA/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/1xuLbEygH1CmDrwSXYWLBB2TOH3sH_pBF/view?usp=sharing) |
+|   **F746**   |  MNASNet<br />(w1.00-r128)  |      TinyOps     |      104     |      4.38      |     68.0    |       1367       | [json](https://drive.google.com/file/d/15yY5DB4EloYYwkLo_-oxlx_QkNESOA7H/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/1rXvwsw28-AKsn7l2JQSpxcp6lmXf6UJa/view?usp=sharing) |
+|   **F746**   |    MbV3<br />(w1.00-r160)   |      TinyOps     |      111     |      3.96      |     68.2    |       1307       | [json](https://drive.google.com/file/d/1a1dTOCxMmnB32xmlOUrzAAKESF2bf2G0/view?usp=sharing)<br />[tflite](https://drive.google.com/file/d/17O2tmDDXPeIO8Sm015APFBNJOcLjOb7r/view?usp=sharing) |
 
 ## Training, Quantisation
 
