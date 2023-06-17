@@ -12,7 +12,7 @@ We find that conventional approaches in TinyML that only utilise internal storag
 
 </div>
 
-## Training and Quantisation
+## Training, Quantisation
 
 We trained our models in PyTorch, followed by standard INT8 post training quantisation using Tensorflow
 
@@ -46,5 +46,11 @@ python
 --val_dir imagenet_2012/val 
 --cfg_path mbv3-w0.55-r128.json 
 --ckpt_path mbv3-w0.55-r128/model_best.pth.tar
+
+
 ```
+
+## Model Deployment
+
+The quantised models can be deployed with the TinyOps inference framework by converting the *.tflite files to C arrays which are copied into the project directory. Please refer to `STM32F746NG_DISCO_MINIMAL_CMSIS/Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_Models/mbv3-w1.00-r160_int8_1.cc`
 
