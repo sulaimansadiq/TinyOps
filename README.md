@@ -12,6 +12,22 @@ We find that conventional approaches in TinyML that only utilise internal storag
 
 </div>
 
+## Model Zoo
+
+| **Platform** |        **Model**       | **Design<br />Space** | **MACs<br />(M)** | **Params<br />(M)** | **Acc<br />(%)** | **Latency<br />(ms)** |       **Link**      |
+|:------------:|:----------------------:|:----------------:|:------------:|:--------------:|:-----------:|:----------------:|:-------------------:|
+|   **F469**   |  Proxyless<br />w0.30-r144  |     Internal     |      21      |      0.72      |     50.7    |       1089       | [json]()<br />[tflite]() |
+|   **F469**   |     MbV3<br />w0.50-r112    |      TinyOps     |      16      |      1.33      |     52.4    |        674       | [json]()<br />[tflite]() |
+|   **F469**   |     MCUNetV1<br />(F469)    |     Internal     |      67      |      0.73      |     59.5    |       2980       | [json]()<br />[tflite]() |
+|   **F469**   |   MNASNet<br />(w1.00-r80)  |      TinyOps     |      48      |      4.38      |     60.8    |       2146       | [json]()<br />[tflite]() |
+|   **F469**   |    MbV3<br />(w0.75-r128)   |      TinyOps     |      44      |      2.49      |     62.6    |       1442       | [json]()<br />[tflite]() |
+|   **F469**   |    MbV3<br />(w1.00-r160)   |      TinyOps     |      111     |      3.96      |     68.2    |       3472       | [json]()<br />[tflite]() |
+|   **F746**   | Proxyless<br />(w0.30-r176) |     Internal     |      32      |      0.72      |     53.7    |        686       | [json]()<br />[tflite]() |
+|   **F746**   |    MbV3<br />(w0.55-r128)   |      TinyOps     |      28      |      1.55      |     58.3    |        460       | [json]()<br />[tflite]() |
+|   **F746**   |     MCUNetV1<br />(F746)    |     Internal     |      82      |      0.74      |     61.5    |       1838       | [json]()<br />[tflite]() |
+|   **F746**   |  MNASNet<br />(w1.00-r128)  |      TinyOps     |      104     |      4.38      |     68.0    |       1367       | [json]()<br />[tflite]() |
+|   **F746**   |    MbV3<br />(w1.00-r160)   |      TinyOps     |      111     |      3.96      |     68.2    |       1307       | [json]()<br />[tflite]() |
+
 ## Training, Quantisation
 
 We trained our models in PyTorch, followed by standard INT8 post training quantisation using Tensorflow
@@ -52,5 +68,12 @@ python
 
 ## Model Deployment
 
-The quantised models can be deployed with the TinyOps inference framework by converting the *.tflite files to C arrays which are copied into the project directory. Please refer to `STM32F746NG_DISCO_MINIMAL_CMSIS/Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_Models/mbv3-w1.00-r160_int8_1.cc`
+We ported the TinyOps inference framework and derived models for ARM Cortex M4 and M7 based MCU devices below which were supplemented with 8MB of SDRAM and NORFlash as below.
+
+STM32F412 (Cortex-M4, 256kB SRAM/1MB Flash)
+STM32F746 (Cortex-M7, 320kB SRAM/1MB Flash)
+
+The project directories for either MCU can be found in `STM32469I_DISCO_PO_TFLM/` and `STM32F746NG_DISCO_MINIMAL_CMSIS/` which can be imported into STM32CubeIDE (>v1.6.1).
+
+Quantised TfLite models can be deployed with the TinyOps inference framework by converting the *.tflite files to (C arrays)[https://www.tensorflow.org/lite/microcontrollers/build_convert] which are copied into the project directory. Please refer to `STM32F746NG_DISCO_MINIMAL_CMSIS/Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_Models/mbv3-w1.00-r160_int8_1.cc` for model naming convention to be used.
 
