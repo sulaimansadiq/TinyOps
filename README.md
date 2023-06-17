@@ -12,6 +12,6 @@ We find that conventional approaches in TinyML that only utilise internal storag
 
 </div>
 
-Training and Quantisation
+## Training and Quantisation
 
 We trained our models in PyTorch, followed by standard INT8 post training quantisation 
