@@ -1,0 +1,2 @@
+arm_fully_connected_s8.c:50:12:arm_fully_connected_s8	96	static
+arm_fully_connected_s8.c:88:9:arm_fully_connected_s8_get_buffer_size	16	static

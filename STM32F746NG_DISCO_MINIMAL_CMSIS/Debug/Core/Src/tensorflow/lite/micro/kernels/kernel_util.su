@@ -1,0 +1,8 @@
+types.h:156:3:tflite::RuntimeShape::RuntimeShape()	16	static
+types.h:175:3:tflite::RuntimeShape::RuntimeShape(int, const int32_t*)	24	static
+types.h:228:19:int32_t* tflite::RuntimeShape::DimsData()	16	static
+types.h:237:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:255:15:void tflite::RuntimeShape::ReplaceWith(int, const int32_t*)	32	static
+kernel_util.cc:23:6:bool tflite::micro::HaveSameShapes(const TfLiteEvalTensor*, const TfLiteEvalTensor*)	16	static
+kernel_util.cc:30:20:const tflite::RuntimeShape tflite::micro::GetTensorShape(const TfLiteEvalTensor*)	32	static
+kernel_util.cc:40:13:tflite::PaddingType tflite::micro::RuntimePaddingType(TfLitePadding)	16	static

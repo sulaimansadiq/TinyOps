@@ -1,0 +1,6 @@
+strided_slice.cc:120:7:void* tflite::ops::micro::strided_slice::Init(TfLiteContext*, const char*, size_t)	8	static
+strided_slice.cc:139:14:TfLiteStatus tflite::ops::micro::strided_slice::Eval(TfLiteContext*, TfLiteNode*)	712	static
+strided_slice.cc:61:28:tflite::StridedSliceParams tflite::ops::micro::strided_slice::BuildStridedSliceParams(tflite::ops::micro::strided_slice::StridedSliceContext*)	16	static
+strided_slice.cc:85:14:TfLiteStatus tflite::ops::micro::strided_slice::CheckOutputSize(TfLiteContext*, tflite::ops::micro::strided_slice::StridedSliceContext*)	176	static
+strided_slice.cc:125:14:TfLiteStatus tflite::ops::micro::strided_slice::Prepare(TfLiteContext*, TfLiteNode*)	144	static
+strided_slice.cc:179:20:TfLiteRegistration tflite::ops::micro::Register_STRIDED_SLICE()	12	static

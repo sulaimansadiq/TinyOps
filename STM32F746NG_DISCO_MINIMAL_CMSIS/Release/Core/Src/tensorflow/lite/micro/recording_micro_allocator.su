@@ -1,0 +1,17 @@
+recording_micro_allocator.h:55:7:tflite::RecordingMicroAllocator::~RecordingMicroAllocator()	8	static
+recording_micro_allocator.h:55:7:virtual tflite::RecordingMicroAllocator::~RecordingMicroAllocator()	8	static
+recording_micro_allocator.cc:26:1:tflite::RecordingMicroAllocator::RecordingMicroAllocator(tflite::RecordingSimpleMemoryAllocator*, tflite::ErrorReporter*)	24	static
+recording_micro_allocator.cc:32:26:static tflite::RecordingMicroAllocator* tflite::RecordingMicroAllocator::Create(uint8_t*, size_t, tflite::ErrorReporter*)	24	static
+recording_micro_allocator.cc:48:20:tflite::RecordedAllocation tflite::RecordingMicroAllocator::GetRecordedAllocation(tflite::RecordedAllocationType) const	0	static
+recording_micro_allocator.cc:72:1:const tflite::RecordingSimpleMemoryAllocator* tflite::RecordingMicroAllocator::GetSimpleMemoryAllocator() const	0	static
+recording_micro_allocator.cc:76:6:void tflite::RecordingMicroAllocator::PrintAllocations() const	0	static
+recording_micro_allocator.cc:116:6:void tflite::RecordingMicroAllocator::PrintRecordedAllocation(tflite::RecordedAllocationType, const char*, const char*) const	0	static
+recording_micro_allocator.cc:224:20:tflite::RecordedAllocation tflite::RecordingMicroAllocator::SnapshotAllocationUsage() const	16	static
+recording_micro_allocator.cc:230:6:void tflite::RecordingMicroAllocator::RecordAllocationUsage(const tflite::RecordedAllocation&, tflite::RecordedAllocation&)	16	static
+recording_micro_allocator.cc:108:7:virtual void* tflite::RecordingMicroAllocator::AllocatePersistentBuffer(size_t)	32	static
+recording_micro_allocator.cc:132:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateNodeAndRegistrations(const tflite::Model*, tflite::NodeAndRegistration**)	32	static
+recording_micro_allocator.cc:156:1:virtual TfLiteStatus tflite::RecordingMicroAllocator::PrepareNodeAndRegistrationDataFromFlatbuffer(const tflite::Model*, const tflite::MicroOpResolver&, tflite::NodeAndRegistration*)	40	static
+recording_micro_allocator.cc:169:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateTfLiteEvalTensors(const tflite::Model*, TfLiteEvalTensor**)	32	static
+recording_micro_allocator.cc:188:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateVariables(const tflite::SubGraph*, TfLiteEvalTensor*)	32	static
+recording_micro_allocator.cc:200:15:virtual TfLiteTensor* tflite::RecordingMicroAllocator::AllocatePersistentTfLiteTensorInternal(const tflite::Model*, TfLiteEvalTensor*, int)	40	static
+recording_micro_allocator.cc:211:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::PopulateTfLiteTensorFromFlatbuffer(const tflite::Model*, const tflite::SubGraph*, TfLiteTensor*, int, bool)	48	static

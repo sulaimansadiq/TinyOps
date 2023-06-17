@@ -1,0 +1,8 @@
+softmax.h:165:13:void tflite::reference_ops::SoftmaxInt16(const tflite::SoftmaxParams&, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, int16_t*)	120	static
+softmax.cc:101:20:TfLiteRegistration tflite::Register_SOFTMAX()	12	static
+fixedpoint.h:842:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::one_over_one_plus_x_for_x_in_0_1(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	72	static
+fixedpoint.h:721:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	64	static
+fixedpoint.h:746:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_negative_values(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>) [with tRawType = long int; int tIntegerBits = 5]	80	static
+softmax.h:67:13:void tflite::reference_ops::Softmax(const tflite::SoftmaxParams&, const tflite::RuntimeShape&, const InputT*, const tflite::RuntimeShape&, OutputT*) [with InputT = unsigned char; OutputT = unsigned char]	120	static
+softmax.h:67:13:void tflite::reference_ops::Softmax(const tflite::SoftmaxParams&, const tflite::RuntimeShape&, const InputT*, const tflite::RuntimeShape&, OutputT*) [with InputT = signed char; OutputT = short int]	120	static
+softmax.cc:69:14:TfLiteStatus tflite::{anonymous}::SoftmaxEval(TfLiteContext*, TfLiteNode*)	256	static

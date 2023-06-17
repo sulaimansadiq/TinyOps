@@ -1,0 +1,7 @@
+micro_time.h:29:16:int32_t tflite::TicksToMs(int32_t)	24	static
+micro_profiler.cc:25:10:virtual uint32_t tflite::MicroProfiler::BeginEvent(const char*)	24	static
+micro_profiler.cc:36:6:virtual void tflite::MicroProfiler::EndEvent(uint32_t)	16	static
+micro_profiler.cc:41:9:int32_t tflite::MicroProfiler::GetTotalTicks() const	24	static
+micro_profiler.cc:49:6:void tflite::MicroProfiler::Log() const	32	static
+micro_profiler.h:32:11:tflite::MicroProfiler::~MicroProfiler()	16	static
+micro_profiler.h:32:11:virtual tflite::MicroProfiler::~MicroProfiler()	16	static

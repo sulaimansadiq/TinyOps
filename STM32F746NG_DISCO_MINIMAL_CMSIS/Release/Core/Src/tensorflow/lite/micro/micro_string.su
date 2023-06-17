@@ -1,0 +1,2 @@
+micro_string.cc:234:16:int MicroVsnprintf(char*, int, const char*, va_list)	120	static
+micro_string.cc:303:16:)	16	static

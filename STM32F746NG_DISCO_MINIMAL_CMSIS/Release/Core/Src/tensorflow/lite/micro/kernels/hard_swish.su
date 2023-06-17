@@ -1,0 +1,4 @@
+hard_swish.cc:80:7:void* tflite::ops::micro::hard_swish::HardSwishInit(TfLiteContext*, const char*, size_t)	8	static
+hard_swish.cc:85:14:TfLiteStatus tflite::ops::micro::hard_swish::HardSwishPrepare(TfLiteContext*, TfLiteNode*)	32	static
+hard_swish.cc:130:14:TfLiteStatus tflite::ops::micro::hard_swish::HardSwishEval(TfLiteContext*, TfLiteNode*)	192	static
+hard_swish.cc:313:20:TfLiteRegistration tflite::ops::micro::Register_HARD_SWISH()	12	static

@@ -1,0 +1,11 @@
+arg_min_max.cc:109:20:TfLiteRegistration tflite::ops::micro::Register_ARG_MAX()	8	static
+arg_min_max.cc:120:20:TfLiteRegistration tflite::ops::micro::Register_ARG_MIN()	8	static
+arg_min_max.h:36:6:void tflite::reference_ops::ArgMinMax(const tflite::RuntimeShape&, const T1*, const T3*, const tflite::RuntimeShape&, T2*, const Cmp&) [with T1 = float; T2 = long int; T3 = long int; Cmp = tflite::ops::micro::Greater]	56	static
+arg_min_max.h:36:6:void tflite::reference_ops::ArgMinMax(const tflite::RuntimeShape&, const T1*, const T3*, const tflite::RuntimeShape&, T2*, const Cmp&) [with T1 = float; T2 = long int; T3 = long int; Cmp = tflite::ops::micro::Less]	56	static
+arg_min_max.h:36:6:void tflite::reference_ops::ArgMinMax(const tflite::RuntimeShape&, const T1*, const T3*, const tflite::RuntimeShape&, T2*, const Cmp&) [with T1 = unsigned char; T2 = long int; T3 = long int; Cmp = tflite::ops::micro::Greater]	56	static
+arg_min_max.h:36:6:void tflite::reference_ops::ArgMinMax(const tflite::RuntimeShape&, const T1*, const T3*, const tflite::RuntimeShape&, T2*, const Cmp&) [with T1 = unsigned char; T2 = long int; T3 = long int; Cmp = tflite::ops::micro::Less]	56	static
+arg_min_max.h:36:6:void tflite::reference_ops::ArgMinMax(const tflite::RuntimeShape&, const T1*, const T3*, const tflite::RuntimeShape&, T2*, const Cmp&) [with T1 = signed char; T2 = long int; T3 = long int; Cmp = tflite::ops::micro::Greater]	56	static
+arg_min_max.h:36:6:void tflite::reference_ops::ArgMinMax(const tflite::RuntimeShape&, const T1*, const T3*, const tflite::RuntimeShape&, T2*, const Cmp&) [with T1 = signed char; T2 = long int; T3 = long int; Cmp = tflite::ops::micro::Less]	56	static
+arg_min_max.cc:48:14:TfLiteStatus tflite::ops::micro::arg_min_max::Eval(TfLiteContext*, TfLiteNode*, bool)	96	static
+arg_min_max.cc:99:14:TfLiteStatus tflite::ops::micro::arg_min_max::ArgMinEval(TfLiteContext*, TfLiteNode*)	0	static
+arg_min_max.cc:103:14:TfLiteStatus tflite::ops::micro::arg_min_max::ArgMaxEval(TfLiteContext*, TfLiteNode*)	0	static

@@ -1,0 +1,1 @@
+op_resolver.cc:25:14:TfLiteStatus tflite::GetRegistrationFromOpCode(const tflite::OperatorCode*, const tflite::OpResolver&, tflite::ErrorReporter*, const TfLiteRegistration**)	24	static

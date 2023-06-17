@@ -1,0 +1,8 @@
+pad.cc:85:7:void* tflite::ops::micro::pad::Init(TfLiteContext*, const char*, size_t)	8	static
+pad.cc:90:14:TfLiteStatus tflite::ops::micro::pad::Prepare(TfLiteContext*, TfLiteNode*)	72	static
+pad.cc:478:20:TfLiteRegistration tflite::ops::micro::Register_PAD()	12	static
+pad.cc:490:20:TfLiteRegistration tflite::ops::micro::Register_PADV2()	12	static
+pad.h:38:13:void tflite::reference_ops::PadImpl(const tflite::PadParams&, const tflite::RuntimeShape&, const T*, const P*, const tflite::RuntimeShape&, T*) [with T = float; P = float]	184	static
+pad.h:38:13:void tflite::reference_ops::PadImpl(const tflite::PadParams&, const tflite::RuntimeShape&, const T*, const P*, const tflite::RuntimeShape&, T*) [with T = unsigned char; P = unsigned char]	184	static
+pad.h:38:13:void tflite::reference_ops::PadImpl(const tflite::PadParams&, const tflite::RuntimeShape&, const T*, const P*, const tflite::RuntimeShape&, T*) [with T = signed char; P = signed char]	184	static
+pad.cc:180:14:TfLiteStatus tflite::ops::micro::pad::Eval(TfLiteContext*, TfLiteNode*)	248	static

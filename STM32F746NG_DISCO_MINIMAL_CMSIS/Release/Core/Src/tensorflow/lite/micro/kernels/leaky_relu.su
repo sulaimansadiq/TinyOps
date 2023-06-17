@@ -1,0 +1,4 @@
+leaky_relu.cc:97:7:void* tflite::{anonymous}::LeakyReluInit(TfLiteContext*, const char*, size_t)	8	static
+leaky_relu.cc:102:14:TfLiteStatus tflite::{anonymous}::LeakyReluPrepare(TfLiteContext*, TfLiteNode*)	40	static
+leaky_relu.cc:106:14:TfLiteStatus tflite::{anonymous}::LeakyReluEval(TfLiteContext*, TfLiteNode*)	192	static
+leaky_relu.cc:142:20:TfLiteRegistration tflite::Register_LEAKY_RELU()	12	static

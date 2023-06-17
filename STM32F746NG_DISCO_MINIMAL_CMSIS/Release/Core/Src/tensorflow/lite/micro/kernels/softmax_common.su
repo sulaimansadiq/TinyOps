@@ -1,0 +1,2 @@
+softmax_common.cc:87:7:void* tflite::SoftmaxInit(TfLiteContext*, const char*, size_t)	8	static
+softmax_common.cc:92:14:TfLiteStatus tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)	104	static

@@ -1,0 +1,3 @@
+kernel_util.cc:23:6:bool tflite::micro::HaveSameShapes(const TfLiteEvalTensor*, const TfLiteEvalTensor*)	8	static
+kernel_util.cc:30:20:const tflite::RuntimeShape tflite::micro::GetTensorShape(const TfLiteEvalTensor*)	24	static
+kernel_util.cc:40:13:tflite::PaddingType tflite::micro::RuntimePaddingType(TfLitePadding)	0	static

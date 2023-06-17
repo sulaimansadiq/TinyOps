@@ -1,0 +1,109 @@
+/*
+ * overlay_fw.h
+ *
+ *  Created on: 22 May 2021
+ *      Author: ss2n18
+ */
+
+#ifndef INC_OVERLAY_FW_H_
+#define INC_OVERLAY_FW_H_
+
+#include "overlay_base.h"
+#include "tensorflow/lite/micro/micro_allocator.h"
+extern "C" {
+#include "dmacopying.h"
+}
+
+#define MAX_INTERMEDIATE_BUFF_SIZE	(32000)
+//#define MAX_RECEPTIVE_FIELD_SIZE	1152 // SC_7
+#define MAX_RECEPTIVE_FIELD_SIZE	58000 // SC_5, SC_7
+#define MAX_NUM_OPERATIONS			150
+
+#define OP_MAX_INPUT_SIZE	2
+
+#define PARTITION_FACTOR			48
+#define PRIMARY_PARTITION_DIM		1
+#define FIRST_OPERATION_STATE_VAL	0
+#define	FIRST_PART_STATE_VAL		0
+
+#define DIM_IDX_BATCH_SIZE			0
+#define DIM_IDX_HEIGHT				1
+#define DIM_IDX_WIDTH				2
+#define DIM_IDX_CHANNELS			3
+
+#define PARTITION_OP_DATA_SIZE		2
+
+#define OP_DATA_CONV_PAD_IDX		0
+
+#define OP_DATA_POOL_PAD_IDX		0
+
+#define OP_DATA_PAD_H_TOP_PAD_IDX	0
+#define OP_DATA_PAD_H_BOT_PAD_IDX	1
+
+#define MAX_NUM_DIMS				4
+
+#define BATCH_DIMENSION				0
+#define ROW_DIMENSION				1
+
+#define SCRATCH_BUFFER_EXTRA		32
+#define CONV_SCRATCH_BUFFER_SIZE	(MAX_RECEPTIVE_FIELD_SIZE /*1568*/ /*980*/ + SCRATCH_BUFFER_EXTRA)
+
+#define TENSOR_BUFFER_EXTRA			PARTITION_FACTOR
+#define TENSOR_BUFFER_SIZE  		(48600 + SCRATCH_BUFFER_EXTRA) // SC_5, SC_6 // PF_4, PF_8 // 7896, 4860 //
+//#define TENSOR_BUFFER_SIZE  		(40320 + SCRATCH_BUFFER_EXTRA) // SC_7 // PF_4, PF_8 // 40320, 72000 //
+
+// (1, 32, 32, 3) => (batch_size, #rows, #columns, #channels)
+// partition the rows, cmsis-nn implementation runs through rows, easier this way, also data is stored row-wise
+// or more generically always partition in 2nd dimension, which is the rows dimension for image feature map
+// or dimensionality in case of vector
+
+typedef struct PartitionInfo {
+	TfLiteIntArray *	dims;
+
+	const TfLiteEvalTensor *	input1;
+	const TfLiteEvalTensor *	input2;
+
+	uint8_t				numParts;
+
+	uint32_t			partSizes[PARTITION_FACTOR];
+	uint32_t			partitionStart[PARTITION_FACTOR];
+	uint32_t			partitionEnd[PARTITION_FACTOR];
+
+	uint32_t			inp_partitioned_dim[PARTITION_FACTOR];
+	uint32_t			out_partitioned_dim[PARTITION_FACTOR];
+
+	uint32_t			op_part_data[PARTITION_FACTOR][PARTITION_OP_DATA_SIZE];
+
+
+} PartitionInfo;
+
+//typedef struct {
+//  TfLiteNode node;
+//  const TfLiteRegistration* registration;
+//} NodeAndRegistration;
+
+typedef struct PartitionedExecutionState {
+
+	uint32_t pingPong;			// flag used to select ping-pong buffer
+
+	uint32_t totalOps;			// Total Operations in Graph
+	uint32_t totalParts;		// Partition Factor
+
+	// Current execution state, where are we in the inference graph right now?
+	uint32_t currentOp;			// Current Op being executed
+	uint32_t currentPart;		// Current Part being executed
+	uint32_t processed_dims[MAX_NUM_DIMS];
+
+	// declaring a global copy of the pointer to this struct because of access issues
+	tflite::NodeAndRegistration * nodes_and_regs_;
+
+	/* This needs a proper permanent solution, instead of just having a MAX_NUM_OPERATIONS here */
+	PartitionInfo ops_parts_info[MAX_NUM_OPERATIONS];
+
+} PartitionedExecutionState;
+
+void OVERLAY_CopyInData( DMACopyQue *, PartitionInfo *, uint32_t, const TfLiteEvalTensor *, TfLiteEvalTensor * );
+void OVERLAY_CopyInData( DMACopyQue *, PartitionInfo *, uint32_t, const TfLiteEvalTensor *, TfLiteEvalTensor *, const TfLiteEvalTensor *, TfLiteEvalTensor * );
+void OVERLAY_CopyInData( DMACopyQue *, PartitionInfo *,	uint32_t, TfLiteEvalTensor *, TfLiteEvalTensor * );
+
+#endif /* INC_OVERLAY_FW_H_ */

@@ -1,0 +1,4 @@
+space_to_batch_nd.cc:41:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+space_to_batch_nd.cc:46:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	16	static
+space_to_batch_nd.cc:63:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	488	static
+space_to_batch_nd.cc:110:20:TfLiteRegistration tflite::Register_SPACE_TO_BATCH_ND()	12	static

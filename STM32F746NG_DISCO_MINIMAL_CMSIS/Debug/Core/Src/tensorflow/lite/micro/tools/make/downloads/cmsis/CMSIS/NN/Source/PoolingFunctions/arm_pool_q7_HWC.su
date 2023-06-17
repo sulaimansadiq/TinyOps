@@ -1,0 +1,5 @@
+arm_pool_q7_HWC.c:42:13:buffer_scale_back_q15_to_q7	32	static
+arm_pool_q7_HWC.c:52:13:compare_and_replace_if_larger_q7	64	static
+arm_pool_q7_HWC.c:96:13:accumulate_q7_to_q15	160	static,ignoring_inline_asm
+arm_pool_q7_HWC.c:170:6:arm_maxpool_q7_HWC	56	static
+arm_pool_q7_HWC.c:326:6:arm_avepool_q7_HWC	64	static

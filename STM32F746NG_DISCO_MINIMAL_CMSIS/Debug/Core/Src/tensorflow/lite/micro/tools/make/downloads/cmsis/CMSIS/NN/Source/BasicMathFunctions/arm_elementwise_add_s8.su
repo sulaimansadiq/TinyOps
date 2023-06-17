@@ -1,0 +1,1 @@
+arm_elementwise_add_s8.c:70:12:arm_elementwise_add_s8	1048	static,ignoring_inline_asm

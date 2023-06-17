@@ -1,0 +1,4 @@
+dmacopying.c:6:6:StartTransfer	24	static,ignoring_inline_asm
+dmacopying.c:34:8:DMA_Copy_Que_Full	0	static
+dmacopying.c:48:8:DMA_Copy_Que_Empty	0	static
+dmacopying.c:57:8:DMA_Copy_Que_Req_Put	40	static,ignoring_inline_asm

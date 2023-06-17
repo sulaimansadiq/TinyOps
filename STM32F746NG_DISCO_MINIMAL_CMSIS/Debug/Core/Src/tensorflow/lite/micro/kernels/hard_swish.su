@@ -1,0 +1,53 @@
+instrumentation.h:195:3:ruy::profiler::ScopeLabel::~ScopeLabel()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+limits:525:7:static constexpr signed char std::numeric_limits<signed char>::min()	4	static
+limits:528:7:static constexpr signed char std::numeric_limits<signed char>::max()	4	static
+limits:595:7:static constexpr unsigned char std::numeric_limits<unsigned char>::min()	4	static
+limits:598:7:static constexpr unsigned char std::numeric_limits<unsigned char>::max()	4	static
+limits:925:7:static constexpr short int std::numeric_limits<short int>::min()	4	static
+limits:928:7:static constexpr short int std::numeric_limits<short int>::max()	4	static
+limits:1207:7:static constexpr long int std::numeric_limits<long int>::max()	4	static
+fixedpoint.h:342:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = short int]	40	static
+types.h:202:3:tflite::RuntimeShape::~RuntimeShape()	16	static
+types.h:212:18:int32_t tflite::RuntimeShape::DimensionsCount() const	16	static
+types.h:213:18:int32_t tflite::RuntimeShape::Dims(int) const	16	static
+types.h:231:25:const int32_t* tflite::RuntimeShape::DimsData() const	16	static
+types.h:289:14:int tflite::RuntimeShape::FlatSize() const	32	static
+types.h:519:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	32	static
+common.h:492:13:void tflite::DownScaleInt32ToInt16Multiplier(int32_t, int16_t*)	24	static
+hard_swish.h:25:16:int16_t tflite::reference_ops::SaturatingLeftShift(int16_t, int)	32	static
+hard_swish.h:35:21:int16_t tflite::reference_ops::SaturatingDoublingHighMul(int16_t, int16_t)	40	static
+kernel_util.h:152:12:int tflite::NumInputs(const TfLiteNode*)	16	static
+kernel_util.h:153:12:int tflite::NumOutputs(const TfLiteNode*)	16	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+hard_swish.cc:80:7:void* tflite::ops::micro::hard_swish::HardSwishInit(TfLiteContext*, const char*, size_t)	24	static
+hard_swish.cc:85:14:TfLiteStatus tflite::ops::micro::hard_swish::HardSwishPrepare(TfLiteContext*, TfLiteNode*)	96	static
+hard_swish.cc:130:14:TfLiteStatus tflite::ops::micro::hard_swish::HardSwishEval(TfLiteContext*, TfLiteNode*)	192	static
+hard_swish.cc:313:20:TfLiteRegistration tflite::ops::micro::Register_HARD_SWISH()	24	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+hard_swish.h:45:13:void tflite::reference_ops::HardSwish(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	56	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = unsigned char]	16	static
+hard_swish.h:59:13:void tflite::reference_ops::HardSwish(const tflite::HardSwishParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = unsigned char]	56	static
+kernel_util.h:61:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:55:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+hard_swish.h:59:13:void tflite::reference_ops::HardSwish(const tflite::HardSwishParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	56	static
+instrumentation.h:191:12:) [with Args = {const char*}]	16	static
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = short int]	48	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = short int]	16	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = short int]	16	static
+fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename gemmlowp::FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = short int]	16	static
+fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = short int]	16	static
+fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = short int]	16	static
+fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = short int]	16	static
+fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = short int]	16	static
+fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = short int]	16	static
+fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = short int]	16	static
+fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = short int]	16	static

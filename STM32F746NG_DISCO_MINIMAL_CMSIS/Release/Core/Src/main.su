@@ -1,0 +1,11 @@
+main.c:709:6:TransferError	0	static
+main.c:658:6:TransferComplete	24	static,ignoring_inline_asm
+main.c:720:6:TransferComplete_Strm1_Ch0	24	static,ignoring_inline_asm
+main.c:770:6:TransferError_Strm1_Ch0	0	static
+main.c:99:6:CPU_CACHE_Enable	12	static,ignoring_inline_asm
+main.c:289:6:QPSI_Init_	224	static,ignoring_inline_asm
+main.c:424:5:main	304	static
+main.c:507:6:DMA_Config	40	static,ignoring_inline_asm
+main.c:780:6:SystemClock_Config	240	static,ignoring_inline_asm
+main.c:363:6:init	104	static,ignoring_inline_asm
+main.c:1044:6:Error_Handler	0	static,ignoring_inline_asm

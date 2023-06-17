@@ -1,0 +1,14 @@
+quantization_util.cc:53:6:void tflite::QuantizeMultiplier(double, int32_t*, int*)	24	static
+quantization_util.cc:93:6:void tflite::QuantizeMultiplierGreaterThanOne(double, int32_t*, int*)	24	static
+quantization_util.cc:101:6:void tflite::QuantizeMultiplierSmallerThanOneExp(double, int32_t*, int*)	32	static
+quantization_util.cc:112:9:int64_t tflite::IntegerFrExp(double, int*)	32	static
+quantization_util.cc:178:8:double tflite::DoubleFromFractionAndShift(int64_t, int)	24	static
+quantization_util.cc:225:8:double tflite::IntegerDoubleMultiply(double, double)	48	static
+quantization_util.cc:240:5:int tflite::IntegerDoubleCompare(double, double)	40	static
+quantization_util.cc:269:6:void tflite::PreprocessSoftmaxScaling(double, double, int, int32_t*, int*)	40	static
+quantization_util.cc:300:6:void tflite::PreprocessLogSoftmaxScalingExp(double, double, int, int32_t*, int*, int32_t*, int*)	56	static
+quantization_util.cc:317:5:int tflite::CalculateInputRadius(int, int, int)	32	static
+quantization_util.cc:336:6:void tflite::NudgeQuantizationRange(float, float, int, int, float*, float*, float*)	8	static
+quantization_util.cc:357:6:void tflite::FakeQuantizeArray(float, float, float, const float*, float*, float)	0	static
+quantization_util.cc:374:6:bool tflite::CheckedLog2(float, int*)	8	static
+quantization_util.cc:386:6:void tflite::QuantizeMultiplierArray(const double*, size_t, int32_t*, int*)	48	static

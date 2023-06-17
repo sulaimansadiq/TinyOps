@@ -1,0 +1,20 @@
+micro_interpreter.cc:124:7:static void* tflite::internal::ContextHelper::AllocatePersistentBuffer(TfLiteContext*, size_t)	0	static
+micro_interpreter.cc:137:7:static void* tflite::internal::ContextHelper::GetScratchBuffer(TfLiteContext*, int)	0	static
+micro_interpreter.cc:143:6:)	0	static
+micro_interpreter.cc:154:15:static TfLiteTensor* tflite::internal::ContextHelper::GetTensor(const TfLiteContext*, int)	8	static
+micro_interpreter.cc:161:19:static TfLiteEvalTensor* tflite::internal::ContextHelper::GetEvalTensor(const TfLiteContext*, int)	0	static
+micro_interpreter.cc:130:14:static TfLiteStatus tflite::internal::ContextHelper::RequestScratchBufferInArena(TfLiteContext*, size_t, int*)	0	static
+micro_interpreter.cc:120:1:tflite::internal::ContextHelper::ContextHelper(tflite::ErrorReporter*, tflite::MicroAllocator*, const tflite::Model*)	8	static
+micro_interpreter.cc:167:6:void tflite::internal::ContextHelper::SetTfLiteEvalTensors(TfLiteEvalTensor*)	0	static
+micro_interpreter.cc:171:6:void tflite::internal::ContextHelper::SetScratchBufferHandles(tflite::ScratchBufferHandle*)	0	static
+micro_interpreter.cc:178:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, uint8_t*, size_t, tflite::ErrorReporter*, tflite::MicroProfiler*)	24	static
+micro_interpreter.cc:198:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, tflite::MicroAllocator*, tflite::ErrorReporter*, tflite::MicroProfiler*)	24	static
+micro_interpreter.cc:216:1:tflite::MicroInterpreter::~MicroInterpreter()	24	static
+micro_interpreter.cc:231:6:void tflite::MicroInterpreter::Init(tflite::MicroProfiler*)	12	static
+micro_interpreter.cc:643:15:TfLiteTensor* tflite::MicroInterpreter::input(size_t)	4	static
+micro_interpreter.cc:654:15:TfLiteTensor* tflite::MicroInterpreter::output(size_t)	4	static
+micro_interpreter.cc:665:15:TfLiteTensor* tflite::MicroInterpreter::tensor(size_t)	8	static
+micro_interpreter.cc:677:14:TfLiteStatus tflite::MicroInterpreter::ResetVariableTensors()	40	static
+micro_interpreter.cc:252:14:TfLiteStatus tflite::MicroInterpreter::AllocateTensors()	32	static
+micro_interpreter.cc:252:14:TfLiteStatus tflite::MicroInterpreter::AllocateTensors()	16	static
+micro_interpreter.cc:509:14:TfLiteStatus tflite::MicroInterpreter::Invoke()	88	static

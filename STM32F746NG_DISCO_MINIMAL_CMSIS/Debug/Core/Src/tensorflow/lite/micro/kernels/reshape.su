@@ -1,0 +1,12 @@
+kernel_util.h:152:12:int tflite::NumInputs(const TfLiteNode*)	16	static
+kernel_util.h:153:12:int tflite::NumOutputs(const TfLiteNode*)	16	static
+kernel_util.h:161:16:int64_t tflite::NumElements(const TfLiteIntArray*)	32	static
+kernel_util.h:169:16:int64_t tflite::NumElements(const TfLiteTensor*)	16	static
+kernel_util.h:31:26:TfLiteEvalTensor* tflite::micro::GetMutableEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:40:32:const TfLiteEvalTensor* tflite::micro::GetEvalInput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+kernel_util.h:46:26:TfLiteEvalTensor* tflite::micro::GetEvalOutput(const TfLiteContext*, const TfLiteNode*, int)	24	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+reshape.cc:33:14:TfLiteStatus tflite::ops::micro::reshape::ReshapeOutput(TfLiteContext*, TfLiteNode*)	72	static
+reshape.cc:74:14:TfLiteStatus tflite::ops::micro::reshape::Prepare(TfLiteContext*, TfLiteNode*)	40	static
+reshape.cc:81:14:TfLiteStatus tflite::ops::micro::reshape::Eval(TfLiteContext*, TfLiteNode*)	40	static
+reshape.cc:105:20:TfLiteRegistration tflite::ops::micro::Register_RESHAPE()	24	static

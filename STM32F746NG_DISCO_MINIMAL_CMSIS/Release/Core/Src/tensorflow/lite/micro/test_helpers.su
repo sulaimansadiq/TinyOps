@@ -1,0 +1,74 @@
+test_helpers.cc:52:8:virtual void tflite::testing::{anonymous}::StackAllocator::deallocate(uint8_t*, size_t)	0	static
+test_helpers.cc:751:6:static void tflite::testing::MockCustom::Free(TfLiteContext*, void*)	0	static
+test_helpers.cc:753:14:static TfLiteStatus tflite::testing::MockCustom::Prepare(TfLiteContext*, TfLiteNode*)	0	static
+test_helpers.cc:798:6:static void tflite::testing::MultipleInputs::Free(TfLiteContext*, void*)	0	static
+test_helpers.cc:40:7:tflite::testing::{anonymous}::StackAllocator::~StackAllocator()	0	static
+flatbuffers.h:640:7:flatbuffers::DefaultAllocator::~DefaultAllocator()	0	static
+test_helpers.cc:655:7:static void* tflite::testing::SimpleStatefulOp::Init(TfLiteContext*, const char*, size_t)	8	static
+test_helpers.cc:741:7:static void* tflite::testing::MockCustom::Init(TfLiteContext*, const char*, size_t)	8	static
+test_helpers.cc:788:7:static void* tflite::testing::MultipleInputs::Init(TfLiteContext*, const char*, size_t)	8	static
+test_helpers.cc:44:12:virtual uint8_t* tflite::testing::{anonymous}::StackAllocator::allocate(size_t)	16	static
+test_helpers.cc:667:14:static TfLiteStatus tflite::testing::SimpleStatefulOp::Prepare(TfLiteContext*, TfLiteNode*)	32	static
+test_helpers.cc:757:14:static TfLiteStatus tflite::testing::MockCustom::Invoke(TfLiteContext*, TfLiteNode*)	40	static
+test_helpers.cc:806:14:static TfLiteStatus tflite::testing::MultipleInputs::Invoke(TfLiteContext*, TfLiteNode*)	40	static
+test_helpers.cc:689:14:static TfLiteStatus tflite::testing::SimpleStatefulOp::Invoke(TfLiteContext*, TfLiteNode*)	56	static
+micro_mutable_op_resolver.h:56:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 128]	24	static
+test_helpers.cc:69:33:flatbuffers::FlatBufferBuilder* tflite::testing::{anonymous}::BuilderInstance()	24	static
+flatbuffers.h:642:12:virtual uint8_t* flatbuffers::DefaultAllocator::allocate(size_t)	0	static
+flatbuffers.h:646:8:virtual void flatbuffers::DefaultAllocator::deallocate(uint8_t*, size_t)	0	static
+test_helpers.cc:40:7:virtual tflite::testing::{anonymous}::StackAllocator::~StackAllocator()	8	static
+flatbuffers.h:640:7:virtual flatbuffers::DefaultAllocator::~DefaultAllocator()	8	static
+flatbuffers.h:945:12:uint8_t* flatbuffers::vector_downward::data() const	8	static
+flatbuffers.h:1343:8:void flatbuffers::FlatBufferBuilder::NotNested()	8	static
+test_helpers.cc:802:14:static TfLiteStatus tflite::testing::MultipleInputs::Prepare(TfLiteContext*, TfLiteNode*)	0	static
+flatbuffers.h:614:20:virtual uint8_t* flatbuffers::Allocator::reallocate_downward(uint8_t*, size_t, size_t, size_t, size_t)	32	static
+flatbuffers.h:917:10:size_t flatbuffers::vector_downward::ensure_space(size_t)	56	static
+flatbuffers.h:1585:8:void flatbuffers::FlatBufferBuilder::StartVector(size_t, size_t)	16	static
+flatbuffers.h:1304:29:void flatbuffers::FlatBufferBuilder::AddElement(flatbuffers::voffset_t, T, T) [with T = long unsigned int]	24	static
+flatbuffers.h:1470:18:flatbuffers::Offset<flatbuffers::String> flatbuffers::FlatBufferBuilder::CreateString(const char*, size_t)	16	static
+flatbuffers.h:1470:18:flatbuffers::Offset<flatbuffers::String> flatbuffers::FlatBufferBuilder::CreateString(const char*, size_t)	16	static
+flatbuffers.h:1470:18:flatbuffers::Offset<flatbuffers::String> flatbuffers::FlatBufferBuilder::CreateString(const char*, size_t)	16	static
+flatbuffers.h:1615:42:flatbuffers::Offset<flatbuffers::Vector<T> > flatbuffers::FlatBufferBuilder::CreateVector(const T*, size_t) [with T = long int]	16	static
+flatbuffers.h:1640:29:flatbuffers::Offset<flatbuffers::Vector<flatbuffers::Offset<T> > > flatbuffers::FlatBufferBuilder::CreateVector(const flatbuffers::Offset<T>*, size_t) [with T = tflite::SubGraph]	64	static
+flatbuffers.h:1335:13:flatbuffers::uoffset_t flatbuffers::FlatBufferBuilder::ReferTo(flatbuffers::uoffset_t)	16	static
+flatbuffers.h:1368:13:flatbuffers::uoffset_t flatbuffers::FlatBufferBuilder::EndTable(flatbuffers::uoffset_t)	56	static
+flatbuffers.h:1470:18:flatbuffers::Offset<flatbuffers::String> flatbuffers::FlatBufferBuilder::CreateString(const char*, size_t)	24	static
+flatbuffers.h:1579:13:flatbuffers::uoffset_t flatbuffers::FlatBufferBuilder::EndVector(size_t)	16	static
+schema_generated.h:3891:36:flatbuffers::Offset<tflite::Tensor> tflite::CreateTensor(flatbuffers::FlatBufferBuilder&, flatbuffers::Offset<flatbuffers::Vector<long int> >, tflite::TensorType, uint32_t, flatbuffers::Offset<flatbuffers::String>, flatbuffers::Offset<tflite::QuantizationParameters>, bool, flatbuffers::Offset<tflite::SparsityParameters>, flatbuffers::Offset<flatbuffers::Vector<long int> >)	40	static
+test_helpers.cc:244:22:tflite::testing::{anonymous}::ModelBuilder::Tensor tflite::testing::{anonymous}::ModelBuilder::AddTensorImpl(tflite::TensorType, bool, std::initializer_list<long int>)	56	static
+test_helpers.cc:244:22:tflite::testing::{anonymous}::ModelBuilder::Tensor tflite::testing::{anonymous}::ModelBuilder::AddTensorImpl(tflite::TensorType, bool, std::initializer_list<long int>)	56	static
+schema_generated.h:11114:38:flatbuffers::Offset<tflite::Operator> tflite::CreateOperator(flatbuffers::FlatBufferBuilder&, uint32_t, flatbuffers::Offset<flatbuffers::Vector<long int> >, flatbuffers::Offset<flatbuffers::Vector<long int> >, tflite::BuiltinOptions, flatbuffers::Offset<void>, flatbuffers::Offset<flatbuffers::Vector<unsigned char> >, tflite::CustomOptionsFormat, flatbuffers::Offset<flatbuffers::Vector<unsigned char> >, flatbuffers::Offset<flatbuffers::Vector<long int> >)	40	static
+test_helpers.cc:156:20:tflite::testing::{anonymous}::ModelBuilder::Node tflite::testing::{anonymous}::ModelBuilder::AddNode(tflite::testing::{anonymous}::ModelBuilder::Operator, std::initializer_list<long int>, std::initializer_list<long int>)	72	static
+schema_generated.h:11255:38:flatbuffers::Offset<tflite::SubGraph> tflite::CreateSubGraph(flatbuffers::FlatBufferBuilder&, flatbuffers::Offset<flatbuffers::Vector<flatbuffers::Offset<tflite::Tensor> > >, flatbuffers::Offset<flatbuffers::Vector<long int> >, flatbuffers::Offset<flatbuffers::Vector<long int> >, flatbuffers::Offset<flatbuffers::Vector<flatbuffers::Offset<tflite::Operator> > >, flatbuffers::Offset<flatbuffers::String>)	32	static
+schema_generated.h:11338:36:flatbuffers::Offset<tflite::Buffer> tflite::CreateBuffer(flatbuffers::FlatBufferBuilder&, flatbuffers::Offset<flatbuffers::Vector<unsigned char> >)	24	static
+schema_generated.h:11741:35:flatbuffers::Offset<tflite::Model> tflite::CreateModel(flatbuffers::FlatBufferBuilder&, uint32_t, flatbuffers::Offset<flatbuffers::Vector<flatbuffers::Offset<tflite::OperatorCode> > >, flatbuffers::Offset<flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> > >, flatbuffers::Offset<flatbuffers::String>, flatbuffers::Offset<flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> > >, flatbuffers::Offset<flatbuffers::Vector<long int> >, flatbuffers::Offset<flatbuffers::Vector<flatbuffers::Offset<tflite::Metadata> > >, flatbuffers::Offset<flatbuffers::Vector<flatbuffers::Offset<tflite::SignatureDef> > >)	40	static
+test_helpers.cc:643:27:static const TfLiteRegistration* tflite::testing::SimpleStatefulOp::getRegistration()	0	static
+test_helpers.cc:647:21:static TfLiteRegistration* tflite::testing::SimpleStatefulOp::GetMutableRegistration()	0	static
+test_helpers.cc:728:27:static const TfLiteRegistration* tflite::testing::MockCustom::getRegistration()	4	static
+test_helpers.cc:732:21:static TfLiteRegistration* tflite::testing::MockCustom::GetMutableRegistration()	4	static
+test_helpers.cc:775:27:static const TfLiteRegistration* tflite::testing::MultipleInputs::getRegistration()	4	static
+test_helpers.cc:779:21:static TfLiteRegistration* tflite::testing::MultipleInputs::GetMutableRegistration()	4	static
+test_helpers.cc:828:16:tflite::AllOpsResolver tflite::testing::GetOpResolver()	40	static
+test_helpers.cc:888:15:const tflite::Tensor* tflite::testing::Create1dFlatbufferTensor(int, bool)	48	static
+test_helpers.cc:926:15:const tflite::Tensor* tflite::testing::CreateMissingQuantizationFlatbufferTensor(int)	48	static
+test_helpers.cc:945:1:const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >* tflite::testing::CreateFlatbufferBuffers()	64	static
+test_helpers.cc:962:5:int tflite::testing::TestStrcmp(const char*, const char*)	4	static
+test_helpers.cc:975:6:)	0	static
+test_helpers.cc:987:17:TfLiteIntArray* tflite::testing::IntArrayFromInts(const int*)	0	static
+test_helpers.cc:994:19:TfLiteFloatArray* tflite::testing::FloatArrayFromFloats(const float*)	0	static
+test_helpers.cc:1002:14:TfLiteTensor tflite::testing::CreateQuantizedBiasTensor(const float*, int32_t*, TfLiteIntArray*, float, float, bool)	56	static
+test_helpers.cc:1018:14:TfLiteTensor tflite::testing::CreatePerChannelQuantizedBiasTensor(const float*, int32_t*, TfLiteIntArray*, float, float*, float*, int*, TfLiteAffineQuantization*, int, bool)	72	static
+test_helpers.cc:1046:14:TfLiteTensor tflite::testing::CreateSymmetricPerChannelQuantizedTensor(const float*, int8_t*, TfLiteIntArray*, float*, int*, TfLiteAffineQuantization*, int, bool)	48	static
+test_helpers.cc:1070:8:size_t tflite::testing::GetModelTensorCount(const tflite::Model*)	8	static
+flatbuffers.h:1281:34:flatbuffers::uoffset_t flatbuffers::FlatBufferBuilder::PushElement(T) [with T = long unsigned int]	16	static
+test_helpers.cc:903:15:const tflite::Tensor* tflite::testing::CreateQuantizedFlatbufferTensor(int)	96	static
+test_helpers.cc:854:14:const tflite::Model* tflite::testing::GetComplexMockModel()	184	static
+test_helpers.cc:183:14:const tflite::Model* tflite::testing::{anonymous}::ModelBuilder::BuildModel(std::initializer_list<long int>, std::initializer_list<long int>, size_t)	160	static
+test_helpers.cc:275:14:const tflite::Model* tflite::testing::{anonymous}::BuildSimpleModelWithBranch()	672	static
+test_helpers.cc:862:14:const tflite::Model* tflite::testing::GetSimpleModelWithBranch()	8	static
+test_helpers.cc:315:14:const tflite::Model* tflite::testing::{anonymous}::BuildModelWithOfflinePlanning(int, const int32_t*, tflite::testing::NodeConnection*, int, int)	632	static
+test_helpers.cc:870:14:const tflite::Model* tflite::testing::GetModelWithOfflinePlanning(int, const int32_t*, tflite::testing::NodeConnection*, int, int)	0	static
+test_helpers.cc:256:14:const tflite::Model* tflite::testing::{anonymous}::BuildSimpleStatefulModel()	640	static
+test_helpers.cc:880:14:const tflite::Model* tflite::testing::GetSimpleStatefulModel()	8	static
+test_helpers.cc:846:14:const tflite::Model* tflite::testing::GetSimpleMultipleInputsModel()	128	static
+test_helpers.cc:838:14:const tflite::Model* tflite::testing::GetSimpleMockModel()	144	static
