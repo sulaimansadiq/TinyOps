@@ -14,4 +14,28 @@ We find that conventional approaches in TinyML that only utilise internal storag
 
 ## Training and Quantisation
 
-We trained our models in PyTorch, followed by standard INT8 post training quantisation 
+We trained our models in PyTorch, followed by standard INT8 post training quantisation using Tensorflow
+
+### Requirement
+
+- Python 3.6+
+- PyTorch 1.4.0+
+- Tensorflow 1.15
+
+To train the models, run
+
+```bash
+python -u Train.TinyOps.TfPad/imagenet.py -a proxyless -d datasets/imagenet_2012/ --epochs 150 --lr-decay cos --lr 0.05 --wd 4e-5 --net_config mbv3-w0.50-r128.json -c mbv3-w0.50-r128/
+```
+
+The models trained in PyTorch can then be quantised using standard post-training INT8 quantisation in tensorflow by running
+
+```bash
+python 
+-u Train.TinyOps.TfPad/gen_eval_tflite.py --tflite_path mbv3-w0.55-r128_int8.tflite 
+--train_dir imagenet_2012/train 
+--val_dir imagenet_2012/val 
+--cfg_path mbv3-w0.55-r128.json 
+--ckpt_path mbv3-w0.55-r128/model_best.pth.tar
+```
+
