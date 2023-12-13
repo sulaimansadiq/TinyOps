@@ -75,5 +75,5 @@ STM32F746 (Cortex-M7, 320kB SRAM/1MB Flash)
 
 The project directories for either MCU can be found in `STM32469I_DISCO_PO_TFLM/` and `STM32F746NG_DISCO_MINIMAL_CMSIS/` which can be imported into STM32CubeIDE (>v1.6.1).
 
-Quantised TfLite models can be deployed with the TinyOps inference framework by converting the *.tflite files to (C arrays)[https://www.tensorflow.org/lite/microcontrollers/build_convert] which are copied into the project directory. Please refer to `STM32F746NG_DISCO_MINIMAL_CMSIS/Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_Models/mbv3-w1.00-r160_int8_1.cc` for model naming convention to be used.
+Quantised TfLite models can be deployed with the TinyOps inference framework by converting the *.tflite files to [C arrays](https://www.tensorflow.org/lite/microcontrollers/build_convert) which are copied into the project directory. Please refer to `STM32F746NG_DISCO_MINIMAL_CMSIS/Core/Src/tensorflow/lite/micro/examples/hello_world/Validated_Models/ImgNet_Models/mbv3-w1.00-r160_int8_1.cc` for model naming convention to be used.
 
