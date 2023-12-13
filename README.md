@@ -70,7 +70,7 @@ python
 
 We ported the TinyOps inference framework and derived models for ARM Cortex M4 and M7 based MCU devices below which were supplemented with 8MB of SDRAM and NORFlash as below.
 
-STM32F412 (Cortex-M4, 256kB SRAM/1MB Flash)
+STM32F412 (Cortex-M4, 256kB SRAM/1MB Flash), 
 STM32F746 (Cortex-M7, 320kB SRAM/1MB Flash)
 
 The project directories for either MCU can be found in `STM32469I_DISCO_PO_TFLM/` and `STM32F746NG_DISCO_MINIMAL_CMSIS/` which can be imported into STM32CubeIDE (>v1.6.1).
